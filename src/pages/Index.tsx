@@ -41,9 +41,9 @@ const Index = () => {
                     className="group relative flex flex-col items-center justify-center w-44 h-16 py-[19px] px-[38px] bg-primary border border-primary text-black text-sm font-semibold uppercase cursor-pointer overflow-hidden"
                     id="a-1"
                   >
-                    <div className="relative flex items-center justify-center w-24 h-5 overflow-hidden">
-                      <div className="relative w-24 h-5 transition-all duration-300 group-hover:-translate-y-full">Contact Us</div>
-                      <div className="absolute w-24 h-5 right-[0.13rem] translate-y-full transition-all duration-300 group-hover:translate-y-0">Contact Us</div>
+                    <div className="relative flex items-center justify-center h-5 overflow-hidden">
+                      <div className="relative h-5 transition-all duration-300 group-hover:-translate-y-full">Contact Us</div>
+                      <div className="absolute h-5 left-0 translate-y-full transition-all duration-300 group-hover:translate-y-0">Contact Us</div>
                     </div>
                   </a>
                 </div>
@@ -54,9 +54,9 @@ const Index = () => {
                     className="group relative flex flex-col items-center justify-center w-44 h-16 py-[19px] px-[38px] text-white border border-white/30 text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-[450ms] hover:border-primary"
                     id="a-2"
                   >
-                    <div className="relative flex items-center justify-center w-24 h-5 overflow-hidden">
-                      <div className="relative w-24 h-5 transition-all duration-300 group-hover:-translate-y-full">Learn More</div>
-                      <div className="absolute w-24 h-5 right-[0.13rem] translate-y-full transition-all duration-300 group-hover:translate-y-0">Learn More</div>
+                    <div className="relative flex items-center justify-center h-5 overflow-hidden">
+                      <div className="relative h-5 transition-all duration-300 group-hover:-translate-y-full">Learn More</div>
+                      <div className="absolute h-5 left-0 translate-y-full transition-all duration-300 group-hover:translate-y-0">Learn More</div>
                     </div>
                   </a>
                 </div>
