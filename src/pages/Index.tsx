@@ -697,31 +697,30 @@ const Index = () => {
       </section>
 
       {/* Number Talks Section */}
-      <section style={{ backgroundPosition: '50% 50%', overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6474705a0cfc7c59037c45f6_Number%20Talks%20Bg.png')] bg-no-repeat bg-cover box-border text-black/[0.8] text-lg h-[46.75rem] leading-5 py-40 relative w-[108.00rem] bg-white" id="section-1">
-        <div className="h-96 px-4 w-[84.38rem] m-auto">
-          <div className="items-center h-96 justify-between w-[82.50rem] flex gap-5" id="div-1">
-            <div className="h-96 w-[47%] min-[1920px]:w-[38.75rem]" id="div-2">
-              <div className="h-96 w-[38.88rem]">
-                <div className="items-center gap-x-4 h-5 w-[38.88rem] flex" id="div-3">
+      <section className="w-full overflow-hidden bg-[url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6474705a0cfc7c59037c45f6_Number%20Talks%20Bg.png')] bg-no-repeat bg-cover py-20 md:py-32 lg:py-40 relative" id="section-1">
+        <div className="w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
+          <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12" id="div-1">
+            <div className="w-full lg:w-[47%]" id="div-2">
+              <div className="w-full">
+                <div className="flex items-center gap-x-4 mb-7" id="div-3">
                   <div className="bg-orange-600 h-0.5 w-24" id="div-4"></div>
-                  <div className="text-orange-600 text-xl italic font-bold h-5 w-32">Number Talks</div>
+                  <div className="text-orange-600 text-xl italic font-bold whitespace-nowrap">Number Talks</div>
                 </div>
-                <h2 className="text-white text-6xl font-bold h-52 leading-[4.38rem] mb-6 mt-7 w-[38.88rem]" id="h2-1">Zohation will help you get things complete reality.</h2>
-                <p className="text-white/[0.8] h-14 leading-7 mb-9 w-[30.63rem]" id="p-1">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master</p>
-                <div className="h-16 w-44 inline-block">
-                  <a href="https://zohation.webflow.io/contact-us" style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center text-white cursor-pointer flex-col font-semibold h-16 justify-center max-w-full py-5 px-10 relative w-44 flex border-2 border-white/[0.3] border-solid overflow-hidden" id="a-1">
-                    <div className="items-center h-5 justify-center relative w-24 flex overflow-hidden">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-5 relative w-24">Get a Quote</div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-5 absolute right-[0.13rem] w-24">Get a Quote</div>
+                <h2 className="text-white text-3xl md:text-4xl lg:text-6xl font-bold leading-tight mb-6" id="h2-1">Zohation will help you get things complete reality.</h2>
+                <p className="text-white/[0.8] leading-7 mb-9 max-w-lg" id="p-1">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master</p>
+                <div className="inline-block">
+                  <a href="https://zohation.webflow.io/contact-us" className="items-center text-white cursor-pointer flex-col font-semibold justify-center py-5 px-10 flex border-2 border-white/[0.3] border-solid overflow-hidden hover:bg-white/10 transition-colors" id="a-1">
+                    <div className="items-center justify-center relative flex overflow-hidden">
+                      <div className="relative">Get a Quote</div>
                     </div>
                   </a>
                 </div>
               </div>
             </div>
-            <div className="h-96 w-[46%] min-[1920px]:w-[38.13rem]" id="div-5">
-              <div className="h-96 w-[38.00rem]">
-                <div className="auto-cols-fr grid-cols-[1fr_1fr] grid-rows-[auto] h-96 w-[38.00rem] grid gap-5" id="div-6">
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+            <div className="w-full lg:w-[46%]" id="div-5">
+              <div className="w-full">
+                <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5" id="div-6">
+                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-7">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -751,9 +750,9 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-40"><div className="text-white font-medium h-5 w-40">Projects Completed</div></div>
+                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Projects Completed</div></div>
                   </div>
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-48 flex overflow-hidden" id="div-8">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -783,9 +782,9 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-20">%</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-32"><div className="text-white font-medium h-5 w-32">Satisfied Clients</div></div>
+                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Satisfied Clients</div></div>
                   </div>
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-9">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -815,9 +814,9 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-36"><div className="text-white font-medium h-5 w-36">Years Experience</div></div>
+                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Years Experience</div></div>
                   </div>
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-10">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -847,15 +846,15 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-40"><div className="text-white font-medium h-5 w-40">Projects Completed</div></div>
+                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Projects Completed</div></div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6475eb82854f05ea66083715_Number%20Talks%20Section%20Shape2.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="bottom-[-0.13rem] h-16 max-w-full absolute right-[78.50rem] top-[42.63rem] align-middle w-96 inline-block overflow-clip" id="img-1" />
-        <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6475eaeb86e51dd65fe0599b_Number%20Talks%20Section%20Shape1.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 max-w-full absolute right-[94.63rem] top-[42.25rem] align-middle w-52 z-[1] inline-block overflow-clip" id="img-2" />
+        <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6475eb82854f05ea66083715_Number%20Talks%20Section%20Shape2.png" className="hidden lg:block absolute bottom-0 right-32 w-64 h-16 pointer-events-none" id="img-1" />
+        <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6475eaeb86e51dd65fe0599b_Number%20Talks%20Section%20Shape1.png" className="hidden lg:block absolute bottom-0 right-0 w-40 h-20 pointer-events-none z-[1]" id="img-2" />
       </section>
     </>
   );
