@@ -719,8 +719,8 @@ const Index = () => {
             </div>
             <div className="w-full lg:w-[46%]" id="div-5">
               <div className="w-full">
-                <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg auto-cols-fr grid-cols-[1fr_1fr] grid-rows-[auto] w-full leading-5 grid gap-5 bg-white" id="div-1">
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg auto-cols-fr grid-cols-[1fr_1fr] grid-rows-[auto] w-full leading-5 grid gap-6 md:gap-8" id="div-1">
+                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-2">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -752,7 +752,7 @@ const Index = () => {
                     </div>
                     <div className="h-5 mt-1.5 w-40"><div className="text-white font-medium h-5 w-40">Projects Completed</div></div>
                   </div>
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-48 flex overflow-hidden" id="div-3">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -784,7 +784,7 @@ const Index = () => {
                     </div>
                     <div className="h-5 mt-1.5 w-32"><div className="text-white font-medium h-5 w-32">Satisfied Clients</div></div>
                   </div>
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-4">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -816,7 +816,7 @@ const Index = () => {
                     </div>
                     <div className="h-5 mt-1.5 w-36"><div className="text-white font-medium h-5 w-36">Years Experience</div></div>
                   </div>
-                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
                     <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-5">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
