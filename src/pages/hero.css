@@ -417,88 +417,217 @@
 
 /* Services Section Responsive Styles */
 @media (max-width: 991px) {
-  #services-section {
+  #section-1 {
     padding-bottom: 100px !important;
   }
-  #services-div-1 {
+  #div-1 {
     flex-direction: column !important;
     margin-bottom: 50px !important;
   }
-  #services-div-2 {
+  #div-2 {
     width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  #services-div-3 {
+  #div-3 {
     flex-direction: column-reverse !important;
     justify-content: center !important;
   }
-  #services-h2-1 {
+  #h2-1 {
     max-width: 500px !important;
     margin-top: 20px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  #services-a-1 {
+  #a-1 {
     padding-top: 16px !important;
     padding-bottom: 16px !important;
   }
-  #services-div-5 {
+  #div-5 {
     grid-template-columns: 1fr 1fr !important;
   }
-  #services-div-6 {
+  #div-6 {
     padding-top: 200px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     padding-bottom: 35px !important;
   }
-  #services-div-7 {
+  #div-7 {
     margin-bottom: 35px !important;
   }
-  #services-div-9 {
+  #div-9 {
     padding-top: 200px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     padding-bottom: 35px !important;
   }
-  #services-div-10 {
+  #div-10 {
     margin-bottom: 35px !important;
   }
-  #services-div-12 {
+  #div-12 {
     padding-top: 200px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     padding-bottom: 35px !important;
   }
-  #services-div-13 {
+  #div-13 {
     margin-bottom: 35px !important;
   }
-  #services-div-15 {
+  #div-15 {
     padding-top: 200px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     padding-bottom: 35px !important;
   }
-  #services-div-16 {
+  #div-16 {
     margin-bottom: 35px !important;
   }
-  #services-div-18 {
+  #div-18 {
     padding-top: 200px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     padding-bottom: 35px !important;
   }
-  #services-div-19 {
+  #div-19 {
     margin-bottom: 35px !important;
   }
-  #services-div-21 {
+  #div-21 {
     padding-top: 200px !important;
     padding-left: 30px !important;
     padding-right: 30px !important;
     padding-bottom: 35px !important;
   }
-  #services-div-22 {
+  #div-22 {
     margin-bottom: 35px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #section-1 {
+    padding-bottom: 80px !important;
+  }
+  #div-4 {
+    width: 50px !important;
+  }
+  #h2-1 {
+    max-width: 400px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  #div-5 {
+    grid-template-columns: 1fr !important;
+  }
+  #div-7 {
+    margin-bottom: 25px !important;
+  }
+  #p-1 {
+    max-width: 380px !important;
+  }
+  #div-10 {
+    margin-bottom: 25px !important;
+  }
+  #p-2 {
+    max-width: 380px !important;
+  }
+  #div-13 {
+    margin-bottom: 25px !important;
+  }
+  #p-3 {
+    max-width: 380px !important;
+  }
+  #div-16 {
+    margin-bottom: 25px !important;
+  }
+  #p-4 {
+    max-width: 380px !important;
+  }
+  #div-19 {
+    margin-bottom: 25px !important;
+  }
+  #p-5 {
+    max-width: 380px !important;
+  }
+  #div-22 {
+    margin-bottom: 25px !important;
+  }
+  #p-6 {
+    max-width: 380px !important;
+  }
+}
+
+@media (max-width: 479px) {
+  #section-1 {
+    padding-bottom: 60px !important;
+  }
+  #h2-1 {
+    max-width: 320px !important;
+    margin-top: 15px !important;
+  }
+  #a-1 {
+    padding-top: 14px !important;
+    padding-right: 30px !important;
+    padding-bottom: 14px !important;
+    padding-left: 30px !important;
+  }
+  #div-6 {
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  #div-8 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #div-9 {
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  #div-11 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #div-12 {
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  #div-14 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #div-15 {
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  #div-17 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #div-18 {
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  #div-20 {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  #div-21 {
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+  }
+  #div-23 {
+    width: 30px !important;
+    height: 30px !important;
   }
 }
 
