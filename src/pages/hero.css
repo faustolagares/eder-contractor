@@ -724,3 +724,41 @@
   }
 }
 
+/* Number Talks Section Cards Responsive Styles */
+@media (max-width: 479px) {
+  #div-1 {
+    grid-template-columns: 1fr !important;
+  }
+  #div-2 {
+    height: 52px !important;
+  }
+  #div-3 {
+    height: 52px !important;
+  }
+  #div-4 {
+    height: 52px !important;
+  }
+  #div-5 {
+    height: 52px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #div-2 {
+    justify-content: center !important;
+    height: 72px !important;
+  }
+  #div-3 {
+    justify-content: center !important;
+    height: 72px !important;
+  }
+  #div-4 {
+    justify-content: center !important;
+    height: 72px !important;
+  }
+  #div-5 {
+    justify-content: center !important;
+    height: 72px !important;
+  }
+}
+

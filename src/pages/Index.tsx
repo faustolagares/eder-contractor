@@ -719,9 +719,9 @@ const Index = () => {
             </div>
             <div className="w-full lg:w-[46%]" id="div-5">
               <div className="w-full">
-                <div className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5" id="div-6">
-                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-7">
+                <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg auto-cols-fr grid-cols-[1fr_1fr] grid-rows-[auto] w-full leading-5 grid gap-5 bg-white" id="div-1">
+                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-2">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -750,10 +750,10 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
                     </div>
-                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Projects Completed</div></div>
+                    <div className="h-5 mt-1.5 w-40"><div className="text-white font-medium h-5 w-40">Projects Completed</div></div>
                   </div>
-                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-48 flex overflow-hidden" id="div-8">
+                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-48 flex overflow-hidden" id="div-3">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
@@ -782,10 +782,10 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-20">%</div>
                     </div>
-                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Satisfied Clients</div></div>
+                    <div className="h-5 mt-1.5 w-32"><div className="text-white font-medium h-5 w-32">Satisfied Clients</div></div>
                   </div>
-                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-9">
+                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-4">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -814,10 +814,10 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
                     </div>
-                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Years Experience</div></div>
+                    <div className="h-5 mt-1.5 w-36"><div className="text-white font-medium h-5 w-36">Years Experience</div></div>
                   </div>
-                  <div className="w-full items-center bg-orange-600/[0.2] flex-col min-h-48 justify-center py-10 px-4 flex">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-10">
+                  <div className="items-center bg-orange-600/[0.2] flex-col h-48 justify-center py-10 w-72 flex col-span-1 row-span-1">
+                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-5">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
                         <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
@@ -846,7 +846,7 @@ const Index = () => {
                       </div>
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
                     </div>
-                    <div className="mt-1.5 text-center"><div className="text-white font-medium">Projects Completed</div></div>
+                    <div className="h-5 mt-1.5 w-40"><div className="text-white font-medium h-5 w-40">Projects Completed</div></div>
                   </div>
                 </div>
               </div>
