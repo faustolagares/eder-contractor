@@ -420,138 +420,274 @@ const Index = () => {
           </div>
           <div>
             <div>
-              <div className="auto-cols-fr grid-cols-[1fr_1fr_1fr] grid-rows-[auto] grid gap-6" id="div-5">
+              {/* Services Grid */}
+              <div className="auto-cols-fr grid-cols-[1fr_1fr_1fr] grid-rows-[auto] gap-6 grid bg-white" id="div-1">
+                {/* Service Card 1 - Project Management */}
                 <div className="h-96 w-96">
-                  <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199e2cff90af9f078ee2c_Services%20Image1.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-6">
-                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
-                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-7">
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473879a1abb27b86b6cbaee_Services%20Image1.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 mb-3 max-w-full w-16 overflow-clip" />
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388776fc6bf5f6fd3908a_Services%20Image2.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 max-w-full w-16 overflow-clip" />
+                  <div
+                    id="div-2"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                  >
+                    {/* Background image (hidden until hover) */}
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        backgroundImage: "url('https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199e2cff90af9f078ee2c_Services%20Image1.png')",
+                      }}
+                    />
+                    {/* Gradient overlay (appears on hover) */}
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
+                      }}
+                    />
+                    {/* Icons */}
+                    <div id="div-3" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                      <img className="h-16 mb-3 max-w-full w-16" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473879a1abb27b86b6cbaee_Services%20Image1.svg" alt="" />
+                      <img className="h-16 max-w-full w-16" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388776fc6bf5f6fd3908a_Services%20Image2.svg" alt="" />
                     </div>
-                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/project-management" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Project Management</a>
-                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-1">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
-                        <a href="https://zohation.webflow.io/services/project-management" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
-                          <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
-                          <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-8">
-                            <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-2.5 max-w-full align-middle w-3 inline-block overflow-clip" />
+                    {/* Content */}
+                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
+                      <div className="h-40 w-96">
+                        <a href="https://zohation.webflow.io/services/project-management" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                          Project Management
+                        </a>
+                        <p id="p-1" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                          Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
+                        </p>
+                        <a href="https://zohation.webflow.io/services/project-management" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                          <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
+                          <div id="div-4" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
+                            <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.75rem] text-center w-11 z-[20] inline-block p-3">01</div>
+                    {/* Number badge */}
+                    <div className="absolute right-[23.75rem] bottom-[23.13rem] inline-block z-20 w-11 h-11 p-3 bg-zinc-100 text-center italic font-semibold">01</div>
                   </div>
                 </div>
+
+                {/* Service Card 2 - General Constructing */}
                 <div className="h-96 w-96">
-                  <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199b8d67da0f056afeb0b_Services%20Image2.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-9">
-                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
-                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-10">
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388838341277e72b4fca7_Services%20Image3.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-14 mb-3 max-w-full w-12 overflow-clip" />
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388864e7dfa2006d9a931_Services%20Image4.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-14 max-w-full w-12 overflow-clip" />
+                  <div
+                    id="div-5"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                  >
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        backgroundImage: "url('https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199b8d67da0f056afeb0b_Services%20Image2.png')",
+                      }}
+                    />
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
+                      }}
+                    />
+                    <div id="div-6" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                      <img className="h-14 mb-3 max-w-full w-12" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388838341277e72b4fca7_Services%20Image3.svg" alt="" />
+                      <img className="h-14 max-w-full w-12" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388864e7dfa2006d9a931_Services%20Image4.svg" alt="" />
                     </div>
-                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/general-constructing" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">General Constructing</a>
-                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-2">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
-                        <a href="https://zohation.webflow.io/services/general-constructing" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
-                          <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
-                          <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-11">
-                            <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-2.5 max-w-full align-middle w-3 inline-block overflow-clip" />
+                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
+                      <div className="h-40 w-96">
+                        <a href="https://zohation.webflow.io/services/general-constructing" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                          General Constructing
+                        </a>
+                        <p id="p-2" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                          Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
+                        </p>
+                        <a href="https://zohation.webflow.io/services/general-constructing" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                          <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
+                          <div id="div-7" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
+                            <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.63rem] text-center w-12 z-[20] inline-block p-3">02</div>
+                    <div className="absolute right-[23.63rem] bottom-[23.13rem] inline-block z-20 w-12 h-11 p-3 bg-zinc-100 text-center italic font-semibold">02</div>
                   </div>
                 </div>
+
+                {/* Service Card 3 - Project Development */}
                 <div className="h-96 w-96">
-                  <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/64719998cff90af9f078c56e_Services%20Image3.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-12">
-                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
-                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-13">
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889963040bdcf0d61a1e_Services%20Image5.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 mb-3 max-w-full w-28 overflow-clip" />
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889b8bf42042655898a6_Services%20Image6.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 max-w-full w-28 overflow-clip" />
+                  <div
+                    id="div-8"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                  >
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        backgroundImage: "url('https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/64719998cff90af9f078c56e_Services%20Image3.png')",
+                      }}
+                    />
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
+                      }}
+                    />
+                    <div id="div-9" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                      <img className="h-20 mb-3 max-w-full w-28" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889963040bdcf0d61a1e_Services%20Image5.svg" alt="" />
+                      <img className="h-20 max-w-full w-28" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889b8bf42042655898a6_Services%20Image6.svg" alt="" />
                     </div>
-                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/project-development" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Project Development</a>
-                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-3">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
-                        <a href="https://zohation.webflow.io/services/project-development" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
-                          <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
-                          <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-14">
-                            <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-2.5 max-w-full align-middle w-3 inline-block overflow-clip" />
+                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
+                      <div className="h-40 w-96">
+                        <a href="https://zohation.webflow.io/services/project-development" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                          Project Development
+                        </a>
+                        <p id="p-3" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                          Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
+                        </p>
+                        <a href="https://zohation.webflow.io/services/project-development" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                          <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
+                          <div id="div-10" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
+                            <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">03</div>
+                    <div className="absolute right-[23.50rem] bottom-[23.13rem] inline-block z-20 w-12 h-11 p-3 bg-zinc-100 text-center italic font-semibold">03</div>
                   </div>
                 </div>
+
+                {/* Service Card 4 - Virtual Design & Build */}
                 <div className="h-96 w-96">
-                  <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199734d2274576971fab2_Services%20Image4.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-15">
-                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
-                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-16">
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388acf753275fb1299cd9_Services%20Image7.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 mb-3 max-w-full w-20 overflow-clip" />
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b06d3931efc9b587d3_Services%20Image8.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 max-w-full w-20 overflow-clip" />
+                  <div
+                    id="div-11"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                  >
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        backgroundImage: "url('https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199734d2274576971fab2_Services%20Image4.png')",
+                      }}
+                    />
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
+                      }}
+                    />
+                    <div id="div-12" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                      <img className="h-20 mb-3 max-w-full w-20" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388acf753275fb1299cd9_Services%20Image7.svg" alt="" />
+                      <img className="h-20 max-w-full w-20" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b06d3931efc9b587d3_Services%20Image8.svg" alt="" />
                     </div>
-                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Virtual Design &amp; Build</a>
-                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-4">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
-                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
-                          <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
-                          <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-17">
-                            <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-2.5 max-w-full align-middle w-3 inline-block overflow-clip" />
+                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
+                      <div className="h-40 w-96">
+                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                          Virtual Design &amp; Build
+                        </a>
+                        <p id="p-4" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                          Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
+                        </p>
+                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                          <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
+                          <div id="div-13" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
+                            <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">04</div>
+                    <div className="absolute right-[23.50rem] bottom-[23.13rem] inline-block z-20 w-12 h-11 p-3 bg-zinc-100 text-center italic font-semibold">04</div>
                   </div>
                 </div>
+
+                {/* Service Card 5 - Build Preconstruction */}
                 <div className="h-96 w-96">
-                  <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647198395f4bcd52c76aaf43_Services%20Image5.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-18">
-                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
-                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-19">
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b989a246e55ee8188e_Services%20Image9.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 mb-3 max-w-full w-16 overflow-clip" />
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388bd1599f3a16bd5955d_Services%20Image10.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 max-w-full w-16 overflow-clip" />
+                  <div
+                    id="div-14"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                  >
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        backgroundImage: "url('https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647198395f4bcd52c76aaf43_Services%20Image5.png')",
+                      }}
+                    />
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
+                      }}
+                    />
+                    <div id="div-15" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                      <img className="h-16 mb-3 max-w-full w-16" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b989a246e55ee8188e_Services%20Image9.svg" alt="" />
+                      <img className="h-16 max-w-full w-16" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388bd1599f3a16bd5955d_Services%20Image10.svg" alt="" />
                     </div>
-                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Build Preconstruction</a>
-                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-5">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
-                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
-                          <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
-                          <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-20">
-                            <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-2.5 max-w-full align-middle w-3 inline-block overflow-clip" />
+                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
+                      <div className="h-40 w-96">
+                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                          Build Preconstruction
+                        </a>
+                        <p id="p-5" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                          Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
+                        </p>
+                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                          <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
+                          <div id="div-16" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
+                            <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">05</div>
+                    <div className="absolute right-[23.50rem] bottom-[23.13rem] inline-block z-20 w-12 h-11 p-3 bg-zinc-100 text-center italic font-semibold">05</div>
                   </div>
                 </div>
+
+                {/* Service Card 6 - Property Maintenance */}
                 <div className="h-96 w-96">
-                  <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647198089f823085580e5686_Services%20Image6.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-21">
-                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
-                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-22">
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c64e7dfa2006da3644_Services%20Image11.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 mb-3 max-w-full w-16 overflow-clip" />
-                      <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c96fc6bf5f6fd3d2a2_Services%20Image12.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 max-w-full w-16 overflow-clip" />
+                  <div
+                    id="div-17"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                  >
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        backgroundImage: "url('https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647198089f823085580e5686_Services%20Image6.png')",
+                      }}
+                    />
+                    <div
+                      aria-hidden="true"
+                      className="absolute inset-0 opacity-0 transition-opacity duration-300 group-hover:opacity-100 pointer-events-none"
+                      style={{
+                        background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
+                      }}
+                    />
+                    <div id="div-18" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                      <img className="h-16 mb-3 max-w-full w-16" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c64e7dfa2006da3644_Services%20Image11.svg" alt="" />
+                      <img className="h-16 max-w-full w-16" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c96fc6bf5f6fd3d2a2_Services%20Image12.svg" alt="" />
                     </div>
-                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/property-maintenance" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Property Maintenance</a>
-                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-6">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
-                        <a href="https://zohation.webflow.io/services/property-maintenance" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
-                          <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
-                          <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-23">
-                            <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-2.5 max-w-full align-middle w-3 inline-block overflow-clip" />
+                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
+                      <div className="h-40 w-96">
+                        <a href="https://zohation.webflow.io/services/property-maintenance" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                          Property Maintenance
+                        </a>
+                        <p id="p-6" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                          Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
+                        </p>
+                        <a href="https://zohation.webflow.io/services/property-maintenance" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                          <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
+                          <div id="div-19" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
+                            <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
                           </div>
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">06</div>
-                    
+                    <div className="absolute right-[23.50rem] bottom-[23.13rem] inline-block z-20 w-12 h-11 p-3 bg-zinc-100 text-center italic font-semibold">06</div>
                   </div>
                 </div>
               </div>

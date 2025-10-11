@@ -654,130 +654,71 @@
   }
 }
 
+@media (max-width: 991px) {
+  #services-section #div-1 {
+    grid-template-columns: 1fr 1fr !important;
+  }
+  #services-section #div-2,
+  #services-section #div-5,
+  #services-section #div-8,
+  #services-section #div-11,
+  #services-section #div-14,
+  #services-section #div-17 {
+    padding-top: 200px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    padding-bottom: 35px !important;
+  }
+  #services-section #div-3,
+  #services-section #div-6,
+  #services-section #div-9,
+  #services-section #div-12,
+  #services-section #div-15,
+  #services-section #div-18 {
+    margin-bottom: 35px !important;
+  }
+}
+
 @media (max-width: 767px) {
-  #services-section {
-    padding-bottom: 80px !important;
-  }
-  #services-div-4 {
-    width: 50px !important;
-  }
-  #services-h2-1 {
-    max-width: 400px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #services-div-5 {
+  #services-section #div-1 {
     grid-template-columns: 1fr !important;
   }
-  #services-div-7 {
+  #services-section #div-3,
+  #services-section #div-6,
+  #services-section #div-9,
+  #services-section #div-12,
+  #services-section #div-15,
+  #services-section #div-18 {
     margin-bottom: 25px !important;
   }
-  #services-p-1 {
-    max-width: 380px !important;
-  }
-  #services-div-10 {
-    margin-bottom: 25px !important;
-  }
-  #services-p-2 {
-    max-width: 380px !important;
-  }
-  #services-div-13 {
-    margin-bottom: 25px !important;
-  }
-  #services-p-3 {
-    max-width: 380px !important;
-  }
-  #services-div-16 {
-    margin-bottom: 25px !important;
-  }
-  #services-p-4 {
-    max-width: 380px !important;
-  }
-  #services-div-19 {
-    margin-bottom: 25px !important;
-  }
-  #services-p-5 {
-    max-width: 380px !important;
-  }
-  #services-div-22 {
-    margin-bottom: 25px !important;
-  }
-  #services-p-6 {
+  #services-section #p-1,
+  #services-section #p-2,
+  #services-section #p-3,
+  #services-section #p-4,
+  #services-section #p-5,
+  #services-section #p-6 {
     max-width: 380px !important;
   }
 }
 
 @media (max-width: 479px) {
-  #services-section {
-    padding-bottom: 60px !important;
-  }
-  #services-h2-1 {
-    max-width: 320px !important;
-    margin-top: 15px !important;
-  }
-  #services-a-1 {
-    padding-top: 14px !important;
-    padding-right: 30px !important;
-    padding-bottom: 14px !important;
-    padding-left: 30px !important;
-  }
-  #services-div-6 {
+  #services-section #div-2,
+  #services-section #div-5,
+  #services-section #div-8,
+  #services-section #div-11,
+  #services-section #div-14,
+  #services-section #div-17 {
     padding-top: 70px !important;
     padding-bottom: 30px !important;
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
-  #services-div-8 {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  #services-div-9 {
-    padding-top: 70px !important;
-    padding-bottom: 30px !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-  #services-div-11 {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  #services-div-12 {
-    padding-top: 70px !important;
-    padding-bottom: 30px !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-  #services-div-14 {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  #services-div-15 {
-    padding-top: 70px !important;
-    padding-bottom: 30px !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-  #services-div-17 {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  #services-div-18 {
-    padding-top: 70px !important;
-    padding-bottom: 30px !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-  #services-div-20 {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  #services-div-21 {
-    padding-top: 70px !important;
-    padding-bottom: 30px !important;
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-  #services-div-23 {
+  #services-section #div-4,
+  #services-section #div-7,
+  #services-section #div-10,
+  #services-section #div-13,
+  #services-section #div-16,
+  #services-section #div-19 {
     width: 30px !important;
     height: 30px !important;
   }
