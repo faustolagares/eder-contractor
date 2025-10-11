@@ -38,7 +38,7 @@ const Index = () => {
                 <div className="w-44 h-16 inline-block">
                   <a 
                     href="#contact" 
-                    className="group relative flex items-center justify-center w-44 h-16 px-10 py-5 bg-primary border-2 border-primary font-semibold cursor-pointer overflow-hidden"
+                    className="group relative flex flex-col items-center justify-center w-44 h-16 py-[19px] px-[38px] bg-primary border border-primary text-black text-[18px] font-semibold uppercase cursor-pointer overflow-hidden"
                     id="a-1"
                   >
                     <div className="relative flex items-center justify-center w-24 h-5 overflow-hidden">
@@ -51,7 +51,7 @@ const Index = () => {
                 <div className="w-44 h-16 inline-block">
                   <a 
                     href="#about" 
-                    className="group relative flex items-center justify-center w-44 h-16 px-10 py-5 text-white border-2 border-white/30 font-semibold cursor-pointer overflow-hidden"
+                    className="group relative flex items-center justify-center w-44 h-16 px-10 py-5 text-white border-2 border-white/30 font-semibold uppercase cursor-pointer overflow-hidden"
                     id="a-2"
                   >
                     <div className="relative flex items-center justify-center w-24 h-5 overflow-hidden">
