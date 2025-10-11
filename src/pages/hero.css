@@ -156,3 +156,23 @@
     width: 75px !important;
   }
 }
+
+/* Hero stacking fixes */
+#div-7 > div.relative > img:first-of-type {
+  position: relative !important;
+  z-index: 20 !important;
+}
+#div-8 {
+  position: relative !important;
+  z-index: 30 !important;
+}
+#div-9 {
+  z-index: -10 !important;
+}
+#img-1 {
+  z-index: 10 !important;
+}
+#img-2 {
+  z-index: 1 !important;
+}
+
