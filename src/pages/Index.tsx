@@ -51,7 +51,7 @@ const Index = () => {
                 <div className="w-44 h-16 inline-block">
                   <a 
                     href="#about" 
-                    className="group relative flex items-center justify-center w-44 h-16 px-10 py-5 text-white border-2 border-white/30 text-sm font-semibold uppercase cursor-pointer overflow-hidden"
+                    className="group relative flex flex-col items-center justify-center w-44 h-16 py-[19px] px-[38px] text-white border border-white/30 text-[18px] font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-[450ms] hover:border-primary"
                     id="a-2"
                   >
                     <div className="relative flex items-center justify-center w-24 h-5 overflow-hidden">
