@@ -110,7 +110,7 @@
   color: rgba(255, 255, 255, 0.8);
   line-height: 1.75;
   margin-bottom: 2.25rem;
-  max-width: 32rem;
+  width: 100%;
 }
 
 .button-wrapper {
