@@ -2,7 +2,8 @@ import './hero.css';
 
 const Index = () => {
   return (
-    <section 
+    <>
+    <section
       className="relative w-full h-[60.13rem] overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-48"
       style={{ backgroundImage: "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473383e6d3931efc97be3a8_Banner%20Bg%20Hv2.png')" }}
       id="section-1"
@@ -112,6 +113,106 @@ const Index = () => {
       </div>
 
     </section>
+
+      {/* Features Section */}
+      <section 
+        className="relative w-full h-80 overflow-visible bg-stone-50 pt-12 pb-20"
+        id="features-section"
+      >
+        <div className="h-60 w-[84.38rem] px-4 m-auto">
+          <div className="relative w-[82.50rem] h-60 -mt-16 min-[1920px]:-mt-24" id="features-div-1">
+            <div 
+              className="grid auto-cols-fr grid-cols-[1fr_1fr_1fr] grid-rows-[auto] gap-4 w-[82.50rem] h-60" 
+              id="features-div-2"
+            >
+              {/* Card 1 - Best House Renovation */}
+              <div 
+                className="bg-white w-96 h-60 p-6 col-span-1 row-span-1 min-[1920px]:pt-8 min-[1920px]:pr-9 min-[1920px]:pb-8 min-[1920px]:pl-9" 
+                id="features-div-3"
+              >
+                <div className="flex items-center gap-x-3 w-96 h-9 mb-8" id="features-div-4">
+                  <div className="w-6 h-5">
+                    <div className="inline-block w-6 h-5 font-medium">01/</div>
+                  </div>
+                  <div className="w-8 h-9">
+                    <img 
+                      src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/646f4afe705cac1607e0c8b1_Features%20Image.png" 
+                      alt="Renovation icon"
+                      className="inline-block w-8 h-9 max-w-full align-middle overflow-clip" 
+                      id="features-img-1" 
+                    />
+                  </div>
+                </div>
+                <div className="w-96 h-32">
+                  <h3 className="w-96 h-9 text-2xl font-semibold leading-[2.13rem] mb-4">
+                    Best House Renovation
+                  </h3>
+                  <p className="w-96 h-20 text-black/60 leading-[1.63rem]">
+                    Constructor explains how you can enjoy high end flooring trends like textured wood and realistic stones with new laminate flooring.
+                  </p>
+                </div>
+              </div>
+
+              {/* Card 2 - Effective Teamwork */}
+              <div 
+                className="bg-white w-96 h-60 p-6 col-span-1 row-span-1 min-[1920px]:pt-8 min-[1920px]:pr-9 min-[1920px]:pb-8 min-[1920px]:pl-9" 
+                id="features-div-5"
+              >
+                <div className="flex items-center gap-x-3 w-96 h-10 mb-8" id="features-div-6">
+                  <div className="w-7 h-5">
+                    <div className="inline-block w-7 h-5 font-medium">02/</div>
+                  </div>
+                  <div className="w-16 h-10">
+                    <img 
+                      src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/646f4d4042d2221571a6079a_Features%20Image2.png" 
+                      alt="Teamwork icon"
+                      className="inline-block w-16 h-10 max-w-full align-middle overflow-clip" 
+                      id="features-img-2" 
+                    />
+                  </div>
+                </div>
+                <div className="w-96 h-32">
+                  <h3 className="w-96 h-9 text-2xl font-semibold leading-[2.13rem] mb-4">
+                    Effective Teamwork
+                  </h3>
+                  <p className="w-96 h-20 text-black/60 leading-[1.63rem]">
+                    As the general contractor, we first create the highest level of trust and integrity with our clients. We value the success of your project.
+                  </p>
+                </div>
+              </div>
+
+              {/* Card 3 - Quality Always Matters */}
+              <div 
+                className="bg-white w-96 h-60 p-6 col-span-1 row-span-1 min-[1920px]:pt-8 min-[1920px]:pr-9 min-[1920px]:pb-8 min-[1920px]:pl-9" 
+                id="features-div-7"
+              >
+                <div className="flex items-center gap-x-3 w-96 h-10 mb-8" id="features-div-8">
+                  <div className="w-7 h-5">
+                    <div className="inline-block w-7 h-5 font-medium">03/</div>
+                  </div>
+                  <div className="w-12 h-10">
+                    <img 
+                      src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/646f4d40ec2bd2dac74a6b30_Features%20Image3.png" 
+                      alt="Quality icon"
+                      className="inline-block w-12 h-10 max-w-full align-middle overflow-clip" 
+                      id="features-img-3" 
+                    />
+                  </div>
+                </div>
+                <div className="w-96 h-32">
+                  <h3 className="w-96 h-9 text-2xl font-semibold leading-[2.13rem] mb-4">
+                    Quality Always Matters
+                  </h3>
+                  <p className="w-96 h-20 text-black/60 leading-[1.63rem]">
+                    Constructor explains how you can enjoy high end flooring trends like textured wood and realistic stones with.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   );
 };
 
