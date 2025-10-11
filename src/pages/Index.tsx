@@ -709,11 +709,14 @@ const Index = () => {
                 </div>
                 <h2 className="number-talks-title">Zohation will help you get things complete reality.</h2>
                 <p className="number-talks-description-text">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master</p>
-                <div className="button-wrapper">
-                  <a href="/contact-us" className="secondary-button w-inline-block">
-                    <div className="primary-button-text-wrap">
-                      <div className="primary-button-text-block one">Get a Quote</div>
-                      <div className="primary-button-text-block two">Get a Quote</div>
+                <div className="inline-block">
+                  <a 
+                    href="/contact-us" 
+                    className="group relative flex flex-col items-center justify-center w-44 h-16 py-[19px] px-[38px] text-white border border-white/30 text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-[450ms] hover:border-primary"
+                  >
+                    <div className="relative flex items-center justify-center h-5 overflow-hidden">
+                      <div className="relative h-5 transition-all duration-300 group-hover:-translate-y-full">Get a Quote</div>
+                      <div className="absolute h-5 left-0 translate-y-full transition-all duration-300 group-hover:translate-y-0">Get a Quote</div>
                     </div>
                   </a>
                 </div>
