@@ -397,15 +397,15 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg h-[81.25rem] leading-5 pb-40 w-[108.00rem] bg-white" id="section-1">
-        <div className="h-[71.25rem] px-4 w-[84.38rem] m-auto">
-          <div className="items-center h-52 justify-between mb-16 w-[82.50rem] flex" id="div-1">
-            <div className="h-52 w-[37.25rem]" id="div-2">
-              <div className="items-center gap-x-4 h-5 w-[37.25rem] flex" id="div-3">
+      <section style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg leading-5 pb-40 bg-white" id="section-1">
+        <div className="px-4 m-auto">
+          <div className="items-center justify-between mb-16 flex" id="div-1">
+            <div id="div-2">
+              <div className="items-center gap-x-4 flex" id="div-3">
                 <div className="bg-orange-600 h-0.5 w-24" id="div-4"></div>
-                <div className="text-orange-600 text-xl italic font-bold h-5 w-28">Our Services</div>
+                <div className="text-orange-600 text-xl italic font-bold">Our Services</div>
               </div>
-              <h2 className="text-[4.75rem] leading-none font-bold h-44 leading-[5.38rem] mt-7 w-[37.25rem]" id="h2-1">We Offer a Wide Range Of Service</h2>
+              <h2 className="text-[4.75rem] leading-none font-bold leading-[5.38rem] mt-7" id="h2-1">We Offer a Wide Range Of Service</h2>
             </div>
             <div className="h-16 w-56">
               <div className="h-16 w-56 inline-block">
@@ -418,9 +418,9 @@ const Index = () => {
               </div>
             </div>
           </div>
-          <div className="h-[53.38rem] w-[82.50rem]">
-            <div className="h-[53.38rem] w-[82.50rem]">
-              <div className="auto-cols-fr grid-cols-[1fr_1fr_1fr] grid-rows-[auto] h-[53.38rem] w-[82.50rem] grid gap-6" id="div-5">
+          <div>
+            <div>
+              <div className="auto-cols-fr grid-cols-[1fr_1fr_1fr] grid-rows-[auto] grid gap-6" id="div-5">
                 <div className="h-96 w-96">
                   <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199e2cff90af9f078ee2c_Services%20Image1.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-6">
                     <div className="flex-col h-16 mb-12 relative w-96 overflow-hidden" id="div-7">
