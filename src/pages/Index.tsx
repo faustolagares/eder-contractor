@@ -1,4 +1,5 @@
 import './hero.css';
+import './number-talks.css';
 
 const Index = () => {
   return (
@@ -719,135 +720,148 @@ const Index = () => {
             </div>
             <div className="w-full lg:w-[46%]" id="div-5">
               <div className="w-full">
-                <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg auto-cols-fr grid-cols-[1fr_1fr] grid-rows-[auto] w-full leading-5 grid gap-6 md:gap-8" id="div-1">
-                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-2">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">2</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">6</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">7</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
+                <div className="box-border text-black/[0.8] text-lg auto-cols-fr grid-cols-[1fr_1fr] grid-rows-[auto] w-full leading-5 grid gap-5">
+                  
+                  <div className="number-talks-single-wrap">
+                    <div className="numbers two">
+                      <div className="all-numbers _1">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">2</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">5</h2>
+                        <h2 className="number-digit two">6</h2>
+                        <h2 className="number-digit two">7</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
                       </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">3</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">9</h2>
+                      <div className="all-numbers _2">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">5</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">3</h2>
+                        <h2 className="number-digit two">4</h2>
                       </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
+                      <div className="number-categories two">+</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-40"><div className="text-white font-medium h-5 w-40">Projects Completed</div></div>
-                  </div>
-                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-48 flex overflow-hidden" id="div-3">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">2</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">3</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">9</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">6</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">7</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">9</h2>
-                      </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">9</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">7</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">3</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">7</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">6</h2>
-                      </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-20">%</div>
+                    <div className="number-talks-text-wrap">
+                      <div className="number-talks-text-block">Projects Completed</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-32"><div className="text-white font-medium h-5 w-32">Satisfied Clients</div></div>
                   </div>
-                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-4">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">2</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">6</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">7</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">2</h2>
+
+                  <div className="number-talks-single-wrap">
+                    <div className="numbers two">
+                      <div className="all-numbers _1">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">2</h2>
+                        <h2 className="number-digit two">3</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">5</h2>
+                        <h2 className="number-digit two">6</h2>
+                        <h2 className="number-digit two">7</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">9</h2>
+                        <h2 className="number-digit two">9</h2>
                       </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">3</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">9</h2>
+                      <div className="all-numbers _2">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">2</h2>
+                        <h2 className="number-digit two">3</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">5</h2>
+                        <h2 className="number-digit two">6</h2>
+                        <h2 className="number-digit two">7</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">9</h2>
+                        <h2 className="number-digit two">9</h2>
                       </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
+                      <div className="number-categories two">%</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-36"><div className="text-white font-medium h-5 w-36">Years Experience</div></div>
-                  </div>
-                  <div className="items-center bg-[#8B4513]/90 flex-col justify-center py-12 md:py-16 w-full min-h-[200px] md:min-h-[240px] flex col-span-1 row-span-1">
-                    <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="items-center h-20 justify-start w-44 flex overflow-hidden" id="div-5">
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">2</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">6</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">7</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                      </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-[68.75rem] w-14">
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">0</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">5</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">8</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">4</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">1</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">3</h2>
-                        <h2 className="text-orange-600 text-[5.63rem] leading-none font-semibold h-24 leading-[6.25rem] relative w-14">9</h2>
-                      </div>
-                      <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="items-center text-orange-600 text-[5.63rem] leading-none font-semibold h-28 justify-center leading-[6.25rem] pt-1.5 w-14">+</div>
+                    <div className="number-talks-text-wrap">
+                      <div className="number-talks-text-block">Satisfied Clients</div>
                     </div>
-                    <div className="h-5 mt-1.5 w-40"><div className="text-white font-medium h-5 w-40">Projects Completed</div></div>
                   </div>
+
+                  <div className="number-talks-single-wrap">
+                    <div className="numbers two">
+                      <div className="all-numbers _1">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">2</h2>
+                        <h2 className="number-digit two">3</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">5</h2>
+                        <h2 className="number-digit two">6</h2>
+                        <h2 className="number-digit two">7</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">9</h2>
+                        <h2 className="number-digit two">2</h2>
+                      </div>
+                      <div className="all-numbers _2">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">2</h2>
+                        <h2 className="number-digit two">3</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">9</h2>
+                        <h2 className="number-digit two">6</h2>
+                        <h2 className="number-digit two">7</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">5</h2>
+                      </div>
+                      <div className="number-categories two">+</div>
+                    </div>
+                    <div className="number-talks-text-wrap">
+                      <div className="number-talks-text-block">Years Experience</div>
+                    </div>
+                  </div>
+
+                  <div className="number-talks-single-wrap">
+                    <div className="numbers two">
+                      <div className="all-numbers _1">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">2</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">5</h2>
+                        <h2 className="number-digit two">6</h2>
+                        <h2 className="number-digit two">7</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                      </div>
+                      <div className="all-numbers _2">
+                        <h2 className="number-digit two">0</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">5</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">8</h2>
+                        <h2 className="number-digit two">4</h2>
+                        <h2 className="number-digit two">1</h2>
+                        <h2 className="number-digit two">3</h2>
+                        <h2 className="number-digit two">4</h2>
+                      </div>
+                      <div className="number-categories two">+</div>
+                    </div>
+                    <div className="number-talks-text-wrap">
+                      <div className="number-talks-text-block">Projects Completed</div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>

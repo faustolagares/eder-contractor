@@ -1,0 +1,68 @@
+.number-talks-single-wrap {
+  background-color: #fe5a0e33;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  display: flex;
+  grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+.numbers.two {
+  align-items: center;
+  height: 80px;
+  justify-content: flex-start;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+.all-numbers {
+  height: 1100px;
+  width: 56px;
+  transition: transform 0.8s ease-in-out;
+}
+
+.all-numbers._1 {
+  transform: translate3d(0px, -45%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.all-numbers._2 {
+  transform: translate3d(0px, 37%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.number-digit.two {
+  color: #ff4d01;
+  font-size: 5.625rem;
+  line-height: 1;
+  font-weight: 600;
+  height: 100px;
+  line-height: 6.25rem;
+  position: relative;
+  width: 56px;
+}
+
+.number-categories.two {
+  color: #ff4d01;
+  font-size: 5.625rem;
+  line-height: 1;
+  font-weight: 600;
+  height: 96px;
+  line-height: 6.25rem;
+  position: relative;
+  width: 56px;
+  margin-left: 8px;
+}
+
+.number-talks-text-wrap {
+  height: 20px;
+  margin-top: 6px;
+}
+
+.number-talks-text-block {
+  color: white;
+  font-weight: 500;
+  height: 20px;
+}
