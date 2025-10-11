@@ -426,7 +426,7 @@ const Index = () => {
                 <div className="h-96 w-96">
                   <div
                     id="div-2"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     {/* Background image (hidden until hover) */}
                     <div
@@ -475,7 +475,7 @@ const Index = () => {
                 <div className="h-96 w-96">
                   <div
                     id="div-5"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -519,7 +519,7 @@ const Index = () => {
                 <div className="h-96 w-96">
                   <div
                     id="div-8"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -563,7 +563,7 @@ const Index = () => {
                 <div className="h-96 w-96">
                   <div
                     id="div-11"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -607,7 +607,7 @@ const Index = () => {
                 <div className="h-96 w-96">
                   <div
                     id="div-14"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -651,7 +651,7 @@ const Index = () => {
                 <div className="h-96 w-96">
                   <div
                     id="div-17"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-24 bg-white transition-all duration-300"
+                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
