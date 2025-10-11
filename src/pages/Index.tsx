@@ -700,8 +700,8 @@ const Index = () => {
       {/* Number Talks Section */}
       <section className="w-full overflow-hidden bg-[url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6474705a0cfc7c59037c45f6_Number%20Talks%20Bg.png')] bg-no-repeat bg-cover py-20 md:py-32 lg:py-40 relative" id="section-1">
         <div className="w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
-          <div className="w-full flex flex-col lg:flex-row items-start justify-between gap-8 lg:gap-12" id="div-1">
-            <div className="w-full lg:w-[calc(50%-1.5rem)] min-w-0">
+          <div className="w-full grid grid-cols-1 lg:grid-cols-2 items-start gap-8 lg:gap-12" id="div-1">
+            <div className="w-full min-w-0">
               <div className="number-talks-text-wrapper">
                 <div className="section-title-tag-wrapper center">
                   <div className="section-title-tag-line"></div>
@@ -719,7 +719,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-[calc(50%-1.5rem)] min-w-0" id="div-5">
+            <div className="w-full min-w-0" id="div-5">
               <div className="w-full min-w-0">
                 <div className="box-border text-black/[0.8] text-lg auto-cols-fr grid-cols-2 grid-rows-[auto] w-full leading-5 grid gap-5 min-w-0">
                   
