@@ -10,16 +10,16 @@
 
 .numbers.two {
   align-items: center;
-  height: 80px;
-  justify-content: flex-start;
+  height: 110px;
+  justify-content: center;
   display: flex;
-  overflow: hidden;
+  overflow: visible;
   position: relative;
 }
 
 .all-numbers {
   height: 1100px;
-  width: 56px;
+  width: 64px;
   transition: transform 0.8s ease-in-out;
 }
 
@@ -38,10 +38,11 @@
   font-size: 5.625rem;
   line-height: 1;
   font-weight: 600;
-  height: 100px;
+  height: 110px;
   line-height: 6.25rem;
   position: relative;
-  width: 56px;
+  width: 64px;
+  text-align: center;
 }
 
 .number-categories.two {
@@ -49,16 +50,18 @@
   font-size: 5.625rem;
   line-height: 1;
   font-weight: 600;
-  height: 96px;
+  height: 110px;
   line-height: 6.25rem;
   position: relative;
-  width: 56px;
-  margin-left: 8px;
+  width: auto;
+  min-width: 64px;
+  margin-left: 16px;
+  text-align: center;
 }
 
 .number-talks-text-wrap {
   height: 20px;
-  margin-top: 6px;
+  margin-top: 12px;
 }
 
 .number-talks-text-block {
