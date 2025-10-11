@@ -701,18 +701,19 @@ const Index = () => {
       <section className="w-full overflow-hidden bg-[url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6474705a0cfc7c59037c45f6_Number%20Talks%20Bg.png')] bg-no-repeat bg-cover py-20 md:py-32 lg:py-40 relative" id="section-1">
         <div className="w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
           <div className="w-full flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12" id="div-1">
-            <div className="w-full lg:w-[47%]" id="div-2">
-              <div className="w-full">
-                <div className="flex items-center gap-x-4 mb-7" id="div-3">
-                  <div className="bg-orange-600 h-0.5 w-24" id="div-4"></div>
-                  <div className="text-orange-600 text-xl italic font-bold whitespace-nowrap">Number Talks</div>
+            <div className="w-full lg:w-1/2">
+              <div className="number-talks-text-wrapper">
+                <div className="section-title-tag-wrapper center">
+                  <div className="section-title-tag-line"></div>
+                  <div className="section-title-tag-title">Number Talks</div>
                 </div>
-                <h2 className="text-white text-3xl md:text-4xl lg:text-6xl font-bold leading-tight mb-6" id="h2-1">Zohation will help you get things complete reality.</h2>
-                <p className="text-white/[0.8] leading-7 mb-9 max-w-lg" id="p-1">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master</p>
-                <div className="inline-block">
-                  <a href="https://zohation.webflow.io/contact-us" className="items-center text-white cursor-pointer flex-col font-semibold justify-center py-5 px-10 flex border-2 border-white/[0.3] border-solid overflow-hidden hover:bg-white/10 transition-colors" id="a-1">
-                    <div className="items-center justify-center relative flex overflow-hidden">
-                      <div className="relative">Get a Quote</div>
+                <h2 className="number-talks-title">Zohation will help you get things complete reality.</h2>
+                <p className="number-talks-description-text">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master</p>
+                <div className="button-wrapper">
+                  <a href="/contact-us" className="secondary-button w-inline-block">
+                    <div className="primary-button-text-wrap">
+                      <div className="primary-button-text-block one">Get a Quote</div>
+                      <div className="primary-button-text-block two">Get a Quote</div>
                     </div>
                   </a>
                 </div>

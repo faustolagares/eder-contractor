@@ -66,3 +66,100 @@
   font-weight: 500;
   height: 20px;
 }
+
+.number-talks-text-wrapper {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Inter Tight, sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-title-tag-wrapper.center {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+}
+
+.section-title-tag-line {
+  background-color: #ff4d01;
+  height: 2px;
+  width: 96px;
+}
+
+.section-title-tag-title {
+  color: #ff4d01;
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.number-talks-title {
+  color: white;
+  font-size: clamp(1.875rem, 4vw, 3.75rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.number-talks-description-text {
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.75;
+  margin-bottom: 2.25rem;
+  max-width: 32rem;
+}
+
+.button-wrapper {
+  display: inline-block;
+}
+
+.secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.25rem 2.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  font-weight: 600;
+  overflow: hidden;
+  position: relative;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.secondary-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.primary-button-text-wrap {
+  position: relative;
+  height: 1.5rem;
+  overflow: hidden;
+}
+
+.primary-button-text-block {
+  transition: transform 0.3s ease;
+}
+
+.primary-button-text-block.one {
+  transform: translate3d(0px, 0%, 0px);
+}
+
+.primary-button-text-block.two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate3d(0px, 100%, 0px);
+}
+
+.secondary-button:hover .primary-button-text-block.one {
+  transform: translate3d(0px, -100%, 0px);
+}
+
+.secondary-button:hover .primary-button-text-block.two {
+  transform: translate3d(0px, 0%, 0px);
+}
