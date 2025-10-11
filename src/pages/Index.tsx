@@ -447,7 +447,7 @@ const Index = () => {
                     {/* Icons */}
                     <div id="div-3" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
                       <img className="h-16 max-w-full w-16 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473879a1abb27b86b6cbaee_Services%20Image1.svg" alt="" />
-                      <img className="h-16 max-w-full w-16 bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388776fc6bf5f6fd3908a_Services%20Image2.svg" alt="" />
+                      <img className="h-12 w-12 p-2 bg-white rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388776fc6bf5f6fd3908a_Services%20Image2.svg" alt="" />
                     </div>
                     {/* Content */}
                     <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
@@ -493,7 +493,7 @@ const Index = () => {
                     />
                     <div id="div-6" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
                       <img className="h-14 max-w-full w-12 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388838341277e72b4fca7_Services%20Image3.svg" alt="" />
-                      <img className="h-14 max-w-full w-12 bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388864e7dfa2006d9a931_Services%20Image4.svg" alt="" />
+                      <img className="h-10 w-8 p-1.5 bg-white rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388864e7dfa2006d9a931_Services%20Image4.svg" alt="" />
                     </div>
                     <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
                       <div className="h-40 w-96">
@@ -537,7 +537,7 @@ const Index = () => {
                     />
                     <div id="div-9" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
                       <img className="h-20 max-w-full w-28 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889963040bdcf0d61a1e_Services%20Image5.svg" alt="" />
-                      <img className="h-20 max-w-full w-28 bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889b8bf42042655898a6_Services%20Image6.svg" alt="" />
+                      <img className="h-16 w-24 p-2 bg-white rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889b8bf42042655898a6_Services%20Image6.svg" alt="" />
                     </div>
                     <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
                       <div className="h-40 w-96">
@@ -581,7 +581,7 @@ const Index = () => {
                     />
                     <div id="div-12" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
                       <img className="h-20 max-w-full w-20 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388acf753275fb1299cd9_Services%20Image7.svg" alt="" />
-                      <img className="h-20 max-w-full w-20 bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b06d3931efc9b587d3_Services%20Image8.svg" alt="" />
+                      <img className="h-16 w-16 p-2 bg-white rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b06d3931efc9b587d3_Services%20Image8.svg" alt="" />
                     </div>
                     <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
                       <div className="h-40 w-96">
@@ -625,7 +625,7 @@ const Index = () => {
                     />
                     <div id="div-15" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
                       <img className="h-16 max-w-full w-16 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b989a246e55ee8188e_Services%20Image9.svg" alt="" />
-                      <img className="h-16 max-w-full w-16 bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388bd1599f3a16bd5955d_Services%20Image10.svg" alt="" />
+                      <img className="h-12 w-12 p-2 bg-white rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388bd1599f3a16bd5955d_Services%20Image10.svg" alt="" />
                     </div>
                     <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
                       <div className="h-40 w-96">
@@ -669,7 +669,7 @@ const Index = () => {
                     />
                     <div id="div-18" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
                       <img className="h-16 max-w-full w-16 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c64e7dfa2006da3644_Services%20Image11.svg" alt="" />
-                      <img className="h-16 max-w-full w-16 bg-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c96fc6bf5f6fd3d2a2_Services%20Image12.svg" alt="" />
+                      <img className="h-12 w-12 p-2 bg-white rounded opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c96fc6bf5f6fd3d2a2_Services%20Image12.svg" alt="" />
                     </div>
                     <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
                       <div className="h-40 w-96">
