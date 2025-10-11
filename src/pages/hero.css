@@ -1,12 +1,12 @@
 /* Services Section Container Fix */
-#section-1 {
+#services-section {
   max-width: 1350px !important;
   margin-left: auto !important;
   margin-right: auto !important;
   width: 100% !important;
 }
 
-#section-1 > div {
+#services-section > div {
   max-width: 1320px !important;
   width: 100% !important;
 }
@@ -440,7 +440,7 @@
 
 /* Services Section Responsive Styles */
 @media (max-width: 991px) {
-  #section-1 {
+  #services-section {
     padding-bottom: 100px !important;
   }
   #div-1 {
@@ -526,7 +526,7 @@
 }
 
 @media (max-width: 767px) {
-  #section-1 {
+  #services-section {
     padding-bottom: 80px !important;
   }
   #div-4 {
@@ -579,7 +579,7 @@
 }
 
 @media (max-width: 479px) {
-  #section-1 {
+  #services-section {
     padding-bottom: 60px !important;
   }
   #h2-1 {

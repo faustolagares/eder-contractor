@@ -397,7 +397,7 @@ const Index = () => {
       </section>
 
       {/* Services Section */}
-      <section style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg leading-5 pb-40 bg-white" id="section-1">
+      <section style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="box-border text-black/[0.8] text-lg leading-5 pb-40 bg-white" id="services-section">
         <div className="px-4 m-auto">
           <div className="items-center justify-between mb-16 flex" id="div-1">
             <div id="div-2">
@@ -423,14 +423,15 @@ const Index = () => {
               <div className="auto-cols-fr grid-cols-[1fr_1fr_1fr] grid-rows-[auto] grid gap-6" id="div-5">
                 <div className="h-96 w-96">
                   <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199e2cff90af9f078ee2c_Services%20Image1.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-6">
-                    <div className="flex-col h-16 mb-12 relative w-96 overflow-hidden" id="div-7">
+                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
+                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-7">
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473879a1abb27b86b6cbaee_Services%20Image1.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 mb-3 max-w-full w-16 overflow-clip" />
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388776fc6bf5f6fd3908a_Services%20Image2.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 max-w-full w-16 overflow-clip" />
                     </div>
-                    <div className="flex-col h-40 relative w-96 flex overflow-hidden">
+                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/project-management" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96">Project Management</a>
-                        <p className="h-14 leading-7 mb-5 w-96" id="p-1">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
+                        <a href="https://zohation.webflow.io/services/project-management" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Project Management</a>
+                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-1">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
                         <a href="https://zohation.webflow.io/services/project-management" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
                           <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
                           <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-8">
@@ -439,20 +440,20 @@ const Index = () => {
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.75rem] text-center w-11 z-[1] inline-block p-3">01</div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.75rem] text-center w-11 z-[20] inline-block p-3">01</div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
                   <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199b8d67da0f056afeb0b_Services%20Image2.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-9">
-                    <div className="flex-col h-16 mb-12 relative w-96 overflow-hidden" id="div-10">
+                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
+                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-10">
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388838341277e72b4fca7_Services%20Image3.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-14 mb-3 max-w-full w-12 overflow-clip" />
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388864e7dfa2006d9a931_Services%20Image4.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-14 max-w-full w-12 overflow-clip" />
                     </div>
-                    <div className="flex-col h-40 relative w-96 flex overflow-hidden">
+                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/general-constructing" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96">General Constructing</a>
-                        <p className="h-14 leading-7 mb-5 w-96" id="p-2">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
+                        <a href="https://zohation.webflow.io/services/general-constructing" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">General Constructing</a>
+                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-2">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
                         <a href="https://zohation.webflow.io/services/general-constructing" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
                           <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
                           <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-11">
@@ -461,20 +462,20 @@ const Index = () => {
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.63rem] text-center w-12 z-[1] inline-block p-3">02</div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.63rem] text-center w-12 z-[20] inline-block p-3">02</div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
                   <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/64719998cff90af9f078c56e_Services%20Image3.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-12">
-                    <div className="flex-col h-16 mb-12 relative w-96 overflow-hidden" id="div-13">
+                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
+                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-13">
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889963040bdcf0d61a1e_Services%20Image5.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 mb-3 max-w-full w-28 overflow-clip" />
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889b8bf42042655898a6_Services%20Image6.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 max-w-full w-28 overflow-clip" />
                     </div>
-                    <div className="flex-col h-40 relative w-96 flex overflow-hidden">
+                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/project-development" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96">Project Development</a>
-                        <p className="h-14 leading-7 mb-5 w-96" id="p-3">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
+                        <a href="https://zohation.webflow.io/services/project-development" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Project Development</a>
+                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-3">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
                         <a href="https://zohation.webflow.io/services/project-development" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
                           <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
                           <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-14">
@@ -483,20 +484,20 @@ const Index = () => {
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">03</div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">03</div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
                   <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647199734d2274576971fab2_Services%20Image4.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-15">
-                    <div className="flex-col h-16 mb-12 relative w-96 overflow-hidden" id="div-16">
+                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
+                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-16">
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388acf753275fb1299cd9_Services%20Image7.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 mb-3 max-w-full w-20 overflow-clip" />
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b06d3931efc9b587d3_Services%20Image8.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-20 max-w-full w-20 overflow-clip" />
                     </div>
-                    <div className="flex-col h-40 relative w-96 flex overflow-hidden">
+                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96">Virtual Design &amp; Build</a>
-                        <p className="h-14 leading-7 mb-5 w-96" id="p-4">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
+                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Virtual Design &amp; Build</a>
+                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-4">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
                         <a href="https://zohation.webflow.io/services/virtual-design-build" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
                           <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
                           <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-17">
@@ -505,20 +506,20 @@ const Index = () => {
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">04</div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">04</div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
                   <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647198395f4bcd52c76aaf43_Services%20Image5.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-18">
-                    <div className="flex-col h-16 mb-12 relative w-96 overflow-hidden" id="div-19">
+                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
+                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-19">
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b989a246e55ee8188e_Services%20Image9.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 mb-3 max-w-full w-16 overflow-clip" />
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388bd1599f3a16bd5955d_Services%20Image10.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 max-w-full w-16 overflow-clip" />
                     </div>
-                    <div className="flex-col h-40 relative w-96 flex overflow-hidden">
+                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96">Build Preconstruction</a>
-                        <p className="h-14 leading-7 mb-5 w-96" id="p-5">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
+                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Build Preconstruction</a>
+                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-5">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
                         <a href="https://zohation.webflow.io/services/build-preconstruction" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
                           <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
                           <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-20">
@@ -527,20 +528,20 @@ const Index = () => {
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">05</div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">05</div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
                   <div style={{ overflowBlock: 'hidden', overflowInline: 'hidden' }} className="bg-[url(&quot;https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647198089f823085580e5686_Services%20Image6.png&quot;)] h-96 pb-8 px-6 pt-24 relative w-96 border-2 border-zinc-300 border-solid overflow-hidden min-[1920px]:pt-24 min-[1920px]:pr-9 min-[1920px]:pb-10 min-[1920px]:pl-9" id="div-21">
-                    <div className="flex-col h-16 mb-12 relative w-96 overflow-hidden" id="div-22">
+                    <div aria-hidden="true" className="absolute inset-0 z-0 pointer-events-none bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))]" />
+                    <div className="flex-col h-16 mb-12 relative z-10 w-96 overflow-hidden" id="div-22">
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c64e7dfa2006da3644_Services%20Image11.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 mb-3 max-w-full w-16 overflow-clip" />
                       <img src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c96fc6bf5f6fd3d2a2_Services%20Image12.svg" style={{ overflowBlock: 'clip', overflowClipMargin: 'content-box', overflowInline: 'clip' }} className="h-16 max-w-full w-16 overflow-clip" />
                     </div>
-                    <div className="flex-col h-40 relative w-96 flex overflow-hidden">
+                    <div className="flex-col h-40 relative z-10 w-96 flex overflow-hidden">
                       <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="h-40 relative w-96">
-                        <a href="https://zohation.webflow.io/services/property-maintenance" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96">Property Maintenance</a>
-                        <p className="h-14 leading-7 mb-5 w-96" id="p-6">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
+                        <a href="https://zohation.webflow.io/services/property-maintenance" className="cursor-pointer text-3xl font-semibold h-10 leading-10 mb-4 w-96 text-white">Property Maintenance</a>
+                        <p className="h-14 leading-7 mb-5 w-96 text-white/80" id="p-6">Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque</p>
                         <a href="https://zohation.webflow.io/services/property-maintenance" className="items-center text-white gap-x-4 cursor-pointer font-semibold h-9 max-w-full w-96 flex">
                           <div className="border-b-2 h-6 pb-1 w-24 border-black border-solid">Learn More</div>
                           <div className="items-center bg-orange-600 h-9 justify-center w-9 flex rounded-full" id="div-23">
@@ -549,8 +550,7 @@ const Index = () => {
                         </a>
                       </div>
                     </div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">06</div>
-                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[20] inline-block p-3">06</div>
                     
                   </div>
                 </div>
