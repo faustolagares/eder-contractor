@@ -423,10 +423,10 @@ const Index = () => {
               {/* Services Grid */}
               <div className="auto-cols-fr grid-cols-[1fr_1fr_1fr] grid-rows-[auto] gap-6 grid bg-white" id="div-1">
                 {/* Service Card 1 - Project Management */}
-                <div className="h-96 w-96">
+                <div className="w-96">
                   <div
                     id="div-2"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
+                    className="group relative w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     {/* Background image (hidden until hover) */}
                     <div
@@ -445,20 +445,20 @@ const Index = () => {
                       }}
                     />
                     {/* Icons */}
-                    <div id="div-3" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                    <div id="div-3" className="relative z-10 flex-col h-16 mb-12 w-full overflow-hidden">
                       <img className="h-16 max-w-full w-16 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473879a1abb27b86b6cbaee_Services%20Image1.svg" alt="" />
                       <img className="h-16 w-16 opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388776fc6bf5f6fd3908a_Services%20Image2.svg" alt="" />
                     </div>
                     {/* Content */}
-                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
-                      <div className="h-40 w-96">
-                        <a href="https://zohation.webflow.io/services/project-management" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                    <div className="relative z-10 flex flex-col w-full overflow-hidden">
+                      <div className="w-full">
+                        <a href="https://zohation.webflow.io/services/project-management" className="block mb-4 h-10 w-full text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
                           Project Management
                         </a>
-                        <p id="p-1" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                        <p id="p-1" className="mb-5 h-14 w-full leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
                           Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
                         </p>
-                        <a href="https://zohation.webflow.io/services/project-management" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                        <a href="https://zohation.webflow.io/services/project-management" className="flex h-9 w-full items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
                           <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
                           <div id="div-4" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
                             <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
@@ -472,10 +472,10 @@ const Index = () => {
                 </div>
 
                 {/* Service Card 2 - General Constructing */}
-                <div className="h-96 w-96">
+                <div className="w-96">
                   <div
                     id="div-5"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
+                    className="group relative w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -491,19 +491,19 @@ const Index = () => {
                         background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
                       }}
                     />
-                    <div id="div-6" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                    <div id="div-6" className="relative z-10 flex-col h-16 mb-12 w-full overflow-hidden">
                       <img className="h-14 max-w-full w-12 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388838341277e72b4fca7_Services%20Image3.svg" alt="" />
                       <img className="h-14 w-12 opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388864e7dfa2006d9a931_Services%20Image4.svg" alt="" />
                     </div>
-                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
-                      <div className="h-40 w-96">
-                        <a href="https://zohation.webflow.io/services/general-constructing" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                    <div className="relative z-10 flex flex-col w-full overflow-hidden">
+                      <div className="w-full">
+                        <a href="https://zohation.webflow.io/services/general-constructing" className="block mb-4 h-10 w-full text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
                           General Constructing
                         </a>
-                        <p id="p-2" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                        <p id="p-2" className="mb-5 h-14 w-full leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
                           Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
                         </p>
-                        <a href="https://zohation.webflow.io/services/general-constructing" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                        <a href="https://zohation.webflow.io/services/general-constructing" className="flex h-9 w-full items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
                           <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
                           <div id="div-7" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
                             <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
@@ -516,10 +516,10 @@ const Index = () => {
                 </div>
 
                 {/* Service Card 3 - Project Development */}
-                <div className="h-96 w-96">
+                <div className="w-96">
                   <div
                     id="div-8"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
+                    className="group relative w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -535,19 +535,19 @@ const Index = () => {
                         background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
                       }}
                     />
-                    <div id="div-9" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                    <div id="div-9" className="relative z-10 flex-col h-16 mb-12 w-full overflow-hidden">
                       <img className="h-20 max-w-full w-28 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889963040bdcf0d61a1e_Services%20Image5.svg" alt="" />
                       <img className="h-20 w-28 opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/6473889b8bf42042655898a6_Services%20Image6.svg" alt="" />
                     </div>
-                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
-                      <div className="h-40 w-96">
-                        <a href="https://zohation.webflow.io/services/project-development" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                    <div className="relative z-10 flex flex-col w-full overflow-hidden">
+                      <div className="w-full">
+                        <a href="https://zohation.webflow.io/services/project-development" className="block mb-4 h-10 w-full text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
                           Project Development
                         </a>
-                        <p id="p-3" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                        <p id="p-3" className="mb-5 h-14 w-full leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
                           Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
                         </p>
-                        <a href="https://zohation.webflow.io/services/project-development" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                        <a href="https://zohation.webflow.io/services/project-development" className="flex h-9 w-full items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
                           <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
                           <div id="div-10" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
                             <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
@@ -560,10 +560,10 @@ const Index = () => {
                 </div>
 
                 {/* Service Card 4 - Virtual Design & Build */}
-                <div className="h-96 w-96">
+                <div className="w-96">
                   <div
                     id="div-11"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
+                    className="group relative w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -579,19 +579,19 @@ const Index = () => {
                         background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
                       }}
                     />
-                    <div id="div-12" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                    <div id="div-12" className="relative z-10 flex-col h-16 mb-12 w-full overflow-hidden">
                       <img className="h-20 max-w-full w-20 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388acf753275fb1299cd9_Services%20Image7.svg" alt="" />
                       <img className="h-20 w-20 opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b06d3931efc9b587d3_Services%20Image8.svg" alt="" />
                     </div>
-                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
-                      <div className="h-40 w-96">
-                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                    <div className="relative z-10 flex flex-col w-full overflow-hidden">
+                      <div className="w-full">
+                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="block mb-4 h-10 w-full text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
                           Virtual Design &amp; Build
                         </a>
-                        <p id="p-4" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                        <p id="p-4" className="mb-5 h-14 w-full leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
                           Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
                         </p>
-                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                        <a href="https://zohation.webflow.io/services/virtual-design-build" className="flex h-9 w-full items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
                           <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
                           <div id="div-13" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
                             <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
@@ -604,10 +604,10 @@ const Index = () => {
                 </div>
 
                 {/* Service Card 5 - Build Preconstruction */}
-                <div className="h-96 w-96">
+                <div className="w-96">
                   <div
                     id="div-14"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
+                    className="group relative w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -623,19 +623,19 @@ const Index = () => {
                         background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
                       }}
                     />
-                    <div id="div-15" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                    <div id="div-15" className="relative z-10 flex-col h-16 mb-12 w-full overflow-hidden">
                       <img className="h-16 max-w-full w-16 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388b989a246e55ee8188e_Services%20Image9.svg" alt="" />
                       <img className="h-16 w-16 opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388bd1599f3a16bd5955d_Services%20Image10.svg" alt="" />
                     </div>
-                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
-                      <div className="h-40 w-96">
-                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                    <div className="relative z-10 flex flex-col w-full overflow-hidden">
+                      <div className="w-full">
+                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="block mb-4 h-10 w-full text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
                           Build Preconstruction
                         </a>
-                        <p id="p-5" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                        <p id="p-5" className="mb-5 h-14 w-full leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
                           Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
                         </p>
-                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                        <a href="https://zohation.webflow.io/services/build-preconstruction" className="flex h-9 w-full items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
                           <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
                           <div id="div-16" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
                             <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
@@ -648,10 +648,10 @@ const Index = () => {
                 </div>
 
                 {/* Service Card 6 - Property Maintenance */}
-                <div className="h-96 w-96">
+                <div className="w-96">
                   <div
                     id="div-17"
-                    className="group relative h-96 w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
+                    className="group relative w-96 border-2 border-zinc-300 overflow-hidden pb-[30px] px-6 pt-[100px] bg-white transition-all duration-300"
                   >
                     <div
                       aria-hidden="true"
@@ -667,19 +667,19 @@ const Index = () => {
                         background: "linear-gradient(rgba(0,0,0,0) 12%, rgba(0,0,0,0.89) 55.01%, rgb(0,0,0))",
                       }}
                     />
-                    <div id="div-18" className="relative z-10 flex-col h-16 mb-12 w-96 overflow-hidden">
+                    <div id="div-18" className="relative z-10 flex-col h-16 mb-12 w-full overflow-hidden">
                       <img className="h-16 max-w-full w-16 transition-opacity duration-300 group-hover:opacity-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c64e7dfa2006da3644_Services%20Image11.svg" alt="" />
                       <img className="h-16 w-16 opacity-0 transition-opacity duration-300 group-hover:opacity-100 absolute top-0" src="https://cdn.prod.website-files.com/647197b25f4bcd52c76a7335/647388c96fc6bf5f6fd3d2a2_Services%20Image12.svg" alt="" />
                     </div>
-                    <div className="relative z-10 flex flex-col h-40 w-96 overflow-hidden">
-                      <div className="h-40 w-96">
-                        <a href="https://zohation.webflow.io/services/property-maintenance" className="block mb-4 h-10 w-96 text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
+                    <div className="relative z-10 flex flex-col w-full overflow-hidden">
+                      <div className="w-full">
+                        <a href="https://zohation.webflow.io/services/property-maintenance" className="block mb-4 h-10 w-full text-3xl font-semibold leading-10 text-black transition-colors duration-300 group-hover:text-white">
                           Property Maintenance
                         </a>
-                        <p id="p-6" className="mb-5 h-14 w-96 leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
+                        <p id="p-6" className="mb-5 h-14 w-full leading-7 text-black/80 transition-colors duration-300 group-hover:text-white/80">
                           Dignissimos ducimus qui blanditiis lorem sit praesentium voluptatum deleniti atque
                         </p>
-                        <a href="https://zohation.webflow.io/services/property-maintenance" className="flex h-9 w-96 items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
+                        <a href="https://zohation.webflow.io/services/property-maintenance" className="flex h-9 w-full items-center gap-x-4 font-semibold text-black transition-colors duration-300 group-hover:text-white">
                           <div className="w-24 h-6 pb-1 border-b-2 border-black transition-colors duration-300 group-hover:border-white">Learn More</div>
                           <div id="div-19" className="flex h-9 w-9 items-center justify-center rounded-full bg-orange-600">
                             <img className="inline-block h-2.5 w-3 align-middle" src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6471aa245f4bcd52c7751c1f_Services%20Link%20Block%20Arrow.png" alt="" />
