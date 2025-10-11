@@ -440,6 +440,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.75rem] text-center w-11 z-[1] inline-block p-3">01</div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
@@ -461,6 +462,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.63rem] text-center w-12 z-[1] inline-block p-3">02</div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
@@ -482,6 +484,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">03</div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
@@ -503,6 +506,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">04</div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
@@ -524,6 +528,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">05</div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
                   </div>
                 </div>
                 <div className="h-96 w-96">
@@ -545,6 +550,7 @@ const Index = () => {
                       </div>
                     </div>
                     <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-zinc-100 bottom-[23.13rem] italic font-semibold h-11 absolute right-[23.50rem] text-center w-12 z-[1] inline-block p-3">06</div>
+                    <div style={{ overflowBlock: 'visible', overflowInline: 'visible' }} className="bg-[linear-gradient(rgba(0,_0,_0,_0)_12%,_rgba(0,_0,_0,_0.89)_55.01%,_rgb(0,_0,_0))] h-full absolute w-full"></div>
                     
                   </div>
                 </div>
