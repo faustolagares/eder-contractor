@@ -1,13 +1,15 @@
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import './hero.css';
 import './number-talks.css';
 
 const Index = () => {
   return (
     <>
+    <Header />
     <section
-      className="relative w-full h-[60.13rem] overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-48"
+      className="relative w-full h-[60.13rem] overflow-hidden bg-white bg-cover bg-no-repeat bg-center"
       style={{ backgroundImage: "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473383e6d3931efc97be3a8_Banner%20Bg%20Hv2.png')" }}
       id="section-1"
     >
