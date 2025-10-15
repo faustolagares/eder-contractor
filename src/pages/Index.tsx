@@ -84,7 +84,7 @@ const Index = () => {
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image.png" 
                 srcSet="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image-p-500.png 500w, https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image.png 722w"
                 alt="Construction hero"
-                className="relative inline-block w-full h-[48.25rem] align-middle overflow-clip"
+                className="absolute bottom-0 inline-block w-full h-[48.25rem] align-middle overflow-clip"
               />
               
               <img 
