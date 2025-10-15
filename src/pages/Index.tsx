@@ -1,4 +1,5 @@
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
+import Footer from "@/components/Footer";
 import './hero.css';
 import './number-talks.css';
 
@@ -878,6 +879,9 @@ const Index = () => {
 
       {/* Testimonials Section */}
       <TestimonialsCarousel />
+
+      {/* Footer */}
+      <Footer />
     </>
   );
 };
