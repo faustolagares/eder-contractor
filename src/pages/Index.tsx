@@ -1,3 +1,4 @@
+import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import './hero.css';
 import './number-talks.css';
 
@@ -874,6 +875,9 @@ const Index = () => {
         <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6475eb82854f05ea66083715_Number%20Talks%20Section%20Shape2.png" className="hidden lg:block absolute bottom-0 right-32 w-64 h-16 pointer-events-none" id="img-1" />
         <img src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6475eaeb86e51dd65fe0599b_Number%20Talks%20Section%20Shape1.png" className="hidden lg:block absolute bottom-0 right-0 w-40 h-20 pointer-events-none z-[1]" id="img-2" />
       </section>
+
+      {/* Testimonials Section */}
+      <TestimonialsCarousel />
     </>
   );
 };
