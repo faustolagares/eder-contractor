@@ -127,7 +127,7 @@ const TestimonialsCarousel = () => {
                 key={testimonial.id}
                 className="flex-[0_0_auto] w-[536px] max-w-full"
               >
-                <div className="bg-white/94 py-12 px-10 max-lg:p-[35px] max-md:p-[25px] max-sm:px-[15px]">
+                <div className="bg-white py-12 px-10 max-lg:p-[35px] max-md:p-[25px] max-sm:px-[15px]">
                   {/* Rating */}
                   <div className="flex items-center gap-[10px] mb-8 max-lg:mb-[25px] max-md:mb-5">
                     <div className="flex items-center gap-1">
