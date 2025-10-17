@@ -1,5 +1,6 @@
 import { Facebook, Twitter, Linkedin, MessageCircle, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const socialLinks = [
   { name: 'Facebook', icon: Facebook, url: 'https://www.facebook.com/' },
@@ -10,40 +11,30 @@ const socialLinks = [
 ];
 
 const navigationColumn1 = [
-  { label: 'Home 01', url: '/' },
-  { label: 'Home 02', url: '/' },
-  { label: 'About Us', url: '/' },
-  { label: 'Services', url: '/' },
-  { label: 'Service Single', url: '/' },
-  { label: 'Shop', url: '/' },
-  { label: 'Shop Single', url: '/' }
+  { labelKey: 'header.nav.home', url: '/' },
+  { labelKey: 'header.nav.about', url: '/about-us' },
+  { labelKey: 'header.nav.services', url: '/services' },
+  { labelKey: 'header.nav.projects', url: '/projects' }
 ];
 
 const navigationColumn2 = [
-  { label: 'Blog', url: '/' },
-  { label: 'Blog Details', url: '/' },
-  { label: 'Project', url: '/' },
-  { label: 'Project Single', url: '/' },
-  { label: 'Contact Us', url: '/' }
+  { labelKey: 'header.nav.contact', url: '/contact' }
 ];
 
 const utilityLinks = [
-  { label: 'Style Guide', url: '/' },
-  { label: 'Protected Password', url: '/' },
-  { label: '404 Not Found', url: '/404' },
-  { label: 'License', url: '/' },
-  { label: 'Changelog', url: '/' }
+  { labelKey: 'footer.utility.title', url: '/' }
 ];
 
 const contactInfo = [
-  { icon: Mail, text: 'zohation@gmail.com', type: 'email' },
-  { icon: Phone, text: '(+008) 2165 35920', type: 'phone' },
-  { icon: Phone, text: '(+880) 6599 02008', type: 'phone' },
-  { icon: MapPin, text: 'Sydney, Australia', type: 'location' }
+  { icon: Mail, text: 'hello@edercontractor.com', type: 'email' },
+  { icon: Phone, text: '(+1) 404 563-1575', type: 'phone' },
+  { icon: Phone, text: '(+1) 404 563-1575', type: 'phone' },
+  { icon: MapPin, text: 'Goose Creek, SC', type: 'location' }
 ];
 
 const Footer = () => {
   const [email, setEmail] = useState('');
+  const { t } = useTranslation();
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -58,7 +49,7 @@ const Footer = () => {
         <div className="flex items-center justify-between border-b-2 border-white/[0.2] pb-12 mb-16 max-lg:flex-col max-lg:justify-center max-md:mb-[60px] max-md:pb-10 max-sm:pb-[30px]">
           <div className="w-[52%] max-lg:w-full max-lg:mb-8">
             <h1 className="text-white text-[4.75rem] leading-[5.38rem] font-bold max-lg:max-w-[650px] max-lg:mx-auto max-md:max-w-[480px] max-md:text-[3.5rem] max-md:leading-[4rem] max-sm:max-w-[320px] max-sm:text-[2.5rem] max-sm:leading-[3rem]">
-              Subscribe Newsletter For Latest Updates
+              {t('footer.newsletter.title')}
             </h1>
           </div>
           <div className="w-[38%] max-lg:w-full max-lg:max-w-[440px]">
@@ -66,17 +57,25 @@ const Footer = () => {
               <div className="flex items-center border-2 border-white/[0.15] max-sm:flex-col">
                 <input
                   type="email"
-                  placeholder="Email Address"
+                  placeholder={t('footer.newsletter.placeholder')}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="bg-zinc-300/[0.03] text-white/80 placeholder:text-white/80 h-16 px-7 w-full focus:outline-none max-sm:h-[50px] max-md:px-[25px]"
                   required
                 />
-                <input
+                <button
                   type="submit"
-                  value="Subscribe Now"
-                  className="bg-orange-600 text-white font-semibold h-16 py-3 px-10 w-48 cursor-pointer hover:bg-orange-700 transition-colors duration-200 max-sm:w-full max-sm:h-[50px]"
-                />
+                  className="group relative flex items-center justify-center bg-orange-600 text-white font-semibold h-16 py-4 px-6 sm:px-10 w-full sm:w-auto sm:min-w-[220px] cursor-pointer overflow-hidden transition-all duration-300 hover:bg-black border-2 border-orange-600 hover:border-black max-sm:h-[50px]"
+                >
+                  <div className="relative w-full flex items-center justify-center overflow-hidden h-6 max-sm:h-5">
+                    <span className="relative whitespace-nowrap transition-all duration-300 group-hover:-translate-y-full block">
+                      {t('footer.newsletter.button')}
+                    </span>
+                    <span className="absolute whitespace-nowrap translate-y-full transition-all duration-300 group-hover:translate-y-0 block">
+                      {t('footer.newsletter.button')}
+                    </span>
+                  </div>
+                </button>
               </div>
             </form>
           </div>
@@ -87,14 +86,12 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="w-[31%] max-lg:w-full max-lg:max-w-[440px] max-lg:mx-auto">
             <a href="/" className="inline-block mb-8 max-md:mb-[25px]">
-              <img
-                src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/646f0323522f1b87570de476_Logo.png"
-                alt="Logo"
-                className="h-8 w-44"
-              />
+              <div className="h-8 w-44 flex items-center justify-center bg-orange-600 text-white font-bold text-lg rounded px-2">
+                EC
+              </div>
             </a>
             <p className="text-white/80 leading-7 mb-7 max-md:max-w-[420px] max-md:mb-5 max-sm:max-w-[275px]">
-              Officia deserunt mollitia animi, id est laborum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est
+              {t('footer.description')}
             </p>
             <div className="flex items-center gap-4 max-lg:justify-center">
               {socialLinks.map((social) => {
@@ -122,7 +119,7 @@ const Footer = () => {
               <div>
                 <div className="mb-10 max-md:mb-[35px] max-sm:mb-[30px]">
                   <h3 className="text-white text-3xl font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
-                    Navigation
+                    {t('footer.navigation.title')}
                   </h3>
                   <div className="bg-orange-600 h-0.5 w-20"></div>
                 </div>
@@ -130,22 +127,22 @@ const Footer = () => {
                   <div className="flex flex-col gap-[1.63rem]">
                     {navigationColumn1.map((link) => (
                       <a
-                        key={link.label}
+                        key={link.labelKey}
                         href={link.url}
                         className="text-white/85 hover:text-orange-600 transition-colors duration-200"
                       >
-                        {link.label}
+                        {t(link.labelKey)}
                       </a>
                     ))}
                   </div>
                   <div className="flex flex-col gap-[1.63rem]">
                     {navigationColumn2.map((link) => (
                       <a
-                        key={link.label}
+                        key={link.labelKey}
                         href={link.url}
                         className="text-white/85 hover:text-orange-600 transition-colors duration-200"
                       >
-                        {link.label}
+                        {t(link.labelKey)}
                       </a>
                     ))}
                   </div>
@@ -156,18 +153,18 @@ const Footer = () => {
               <div>
                 <div className="mb-10 max-md:mb-[35px] max-sm:mb-[30px]">
                   <h3 className="text-white text-3xl font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
-                    Utility Pages
+                    {t('footer.utility.title')}
                   </h3>
                   <div className="bg-orange-600 h-0.5 w-20"></div>
                 </div>
                 <div className="flex flex-col gap-[1.63rem]">
                   {utilityLinks.map((link) => (
                     <a
-                      key={link.label}
+                      key={link.labelKey}
                       href={link.url}
                       className="text-white/85 hover:text-orange-600 transition-colors duration-200"
                     >
-                      {link.label}
+                      {t(link.labelKey)}
                     </a>
                   ))}
                 </div>
@@ -177,7 +174,7 @@ const Footer = () => {
               <div>
                 <div className="mb-10 max-md:mb-[35px] max-sm:mb-[30px]">
                   <h3 className="text-white text-3xl font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
-                    Contact Us
+                    {t('footer.contactTitle')}
                   </h3>
                   <div className="bg-orange-600 h-0.5 w-20"></div>
                 </div>
@@ -202,23 +199,15 @@ const Footer = () => {
         {/* Copyright Bar */}
         <div className="border-t-2 border-white/[0.2] py-7 text-center max-md:py-5">
           <div className="text-white">
-            Designed by{' '}
+            {t('footer.copyright', { designer: 'Fausto Lagares', platform: 'NexLink' })}
+            {' '}
             <a
-              href="https://zohaflow.webflow.io/"
+              href="https://www.nexlink.ai"
               target="_blank"
               rel="noopener noreferrer"
               className="text-orange-600 hover:underline"
             >
-              Zohaflow
-            </a>
-            {' '}- Powered by{' '}
-            <a
-              href="https://webflow.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-orange-600 hover:underline"
-            >
-              Webflow
+              NexLink
             </a>
           </div>
         </div>

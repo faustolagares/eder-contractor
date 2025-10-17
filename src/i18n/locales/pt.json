@@ -1,0 +1,204 @@
+{
+  "header": {
+    "nav": {
+      "home": "Início",
+      "about": "Sobre Nós",
+      "services": "Serviços",
+      "projects": "Projetos",
+      "contact": "Contato"
+    },
+    "cta": "Solicitar Orçamento"
+  },
+  "hero": {
+    "badge": "Serviço Premium",
+    "title": "Serviços de Renovação Completa em Goose Creek e Grande Charleston, SC",
+    "subtitle": "Renovação completa, revestimento, pintura, remediação de mofo, renovação de danos por incêndio e mais. Artesanato de qualidade para projetos residenciais e comerciais.",
+    "cta": {
+      "primary": "Orçamento Grátis",
+      "secondary": "Ver Serviços"
+    }
+  },
+  "features": {
+    "feature1": {
+      "title": "Artesanato de Qualidade",
+      "description": "Trabalho profissional com atenção aos detalhes em cada projeto, garantindo resultados duradouros."
+    },
+    "feature2": {
+      "title": "Comunicação Clara",
+      "description": "Prazos transparentes e atualizações regulares durante todo o processo."
+    },
+    "feature3": {
+      "title": "Licenciado e Segurado",
+      "description": "Empreiteiro totalmente certificado servindo a região de Charleston com total tranquilidade."
+    }
+  },
+  "about": {
+    "badge": "Sobre Nós",
+    "title": "Serviços Especializados em Renovação",
+    "description": "Eder Contractor oferece serviços premium de renovação em toda a região de Charleston. Especializamo-nos em renovações residenciais e comerciais leves completas, revestimento, pintura, remediação de mofo, renovação de danos por incêndio e muito mais. Nosso foco é artesanato de qualidade, comunicação clara e prazos confiáveis.",
+    "stats": {
+      "projects": "Projetos Concluídos",
+      "experience": "Anos de Experiência"
+    },
+    "cta": "Entre em Contato Hoje"
+  },
+  "services": {
+    "badge": "Nossos Serviços",
+    "title": "Soluções Completas de Renovação",
+    "cta": "Ver Todos os Serviços",
+    "list": {
+      "renovation": {
+        "title": "Renovação Completa",
+        "description": "Renovações residenciais e comerciais leves completas com coordenação abrangente de projetos."
+      },
+      "resurfacing": {
+        "title": "Revestimento e Refinamento",
+        "description": "Renove superfícies desgastadas sem substituição completa: bancadas, armários e mais."
+      },
+      "painting": {
+        "title": "Pintura Interna e Externa",
+        "description": "Preparação e acabamento profissional para camadas duráveis e uniformes em todas as áreas."
+      },
+      "mold": {
+        "title": "Remediação de Mofo",
+        "description": "Avaliação, contenção, remoção e prevenção para ambiente interno saudável."
+      },
+      "fire": {
+        "title": "Renovação de Danos por Incêndio",
+        "description": "Limpeza completa, remoção de odor e renovação estrutural após incidentes de incêndio."
+      },
+      "bathroom": {
+        "title": "Remodelação de Banheiros",
+        "description": "Transformações completas de banheiros: azulejos, acessórios, iluminação e impermeabilização."
+      },
+      "deck": {
+        "title": "Renovação de Decks",
+        "description": "Reparo, lixamento, tingimento e refinamento de decks e estruturas externas."
+      },
+      "pressure": {
+        "title": "Lavagem sob Pressão",
+        "description": "Calçadas, revestimentos, decks, pátios - removendo sujeira, algas e manchas."
+      },
+      "cabinet": {
+        "title": "Criação de Armários Personalizados",
+        "description": "Projete e construa armários personalizados adaptados ao seu espaço e necessidades."
+      },
+      "cabinetPaint": {
+        "title": "Pintura de Armários",
+        "description": "Refinamento profissional para atualizar e modernizar armários existentes."
+      },
+      "wallpaper": {
+        "title": "Instalação e Remoção de Papel de Parede",
+        "description": "Instalação limpa e precisa e remoção segura com preparação adequada da parede."
+      },
+      "commercial": {
+        "title": "Projetos Comerciais",
+        "description": "Serviços de renovação comercial leve para empresas."
+      }
+    }
+  },
+  "numberTalks": {
+    "badge": "Números Falam",
+    "title": "Eder Contractor ajudará você a concretizar suas coisas.",
+    "description": "Lidamos com sucesso com tarefas de complexidade variada, fornecemos garantias de longo prazo e nos aperfeiçoamos regularmente",
+    "cta": "Solicitar Orçamento",
+    "stats": {
+      "projectsCompleted": "Projetos Concluídos",
+      "satisfiedClients": "Clientes Satisfeitos",
+      "yearsExperience": "Anos de Experiência"
+    }
+  },
+  "testimonials": {
+    "badge": "Depoimentos",
+    "title": "O Que Nossos Clientes Dizem Sobre Nós",
+    "reviews": {
+      "review1": {
+        "text": "Eder Contractor fez um trabalho incrível na remodelação do nosso banheiro. A atenção aos detalhes foi impressionante e concluíram tudo no prazo. Altamente recomendado!",
+        "author": "Sarah Mitchell",
+        "location": "Goose Creek, SC",
+        "rating": "5.0"
+      },
+      "review2": {
+        "text": "Profissional, confiável e excelente trabalho. Transformaram nossa cozinha com refinamento e pintura de armários. A comunicação foi excepcional.",
+        "author": "Michael Johnson",
+        "location": "Summerville, SC",
+        "rating": "5.0"
+      },
+      "review3": {
+        "text": "Após danos por incêndio, Eder Contractor renovou nossa casa lindamente. Foram compassivos e minuciosos, tornando um momento difícil muito mais fácil.",
+        "author": "Jennifer Davis",
+        "location": "Charleston, SC",
+        "rating": "5.0"
+      },
+      "review4": {
+        "text": "Ótima experiência do início ao fim. Nosso deck parece novo após o trabalho de renovação. Artesanato de qualidade a preços justos.",
+        "author": "Robert Thompson",
+        "location": "Moncks Corner, SC",
+        "rating": "5.0"
+      },
+      "review5": {
+        "text": "Excelente serviço de remediação de mofo. Explicaram tudo claramente e fizeram um trabalho completo. Nossa casa está segura e saudável novamente.",
+        "author": "Lisa Anderson",
+        "location": "Mount Pleasant, SC",
+        "rating": "5.0"
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Entre em Contato",
+      "breadcrumb": {
+        "home": "Início",
+        "current": "Contato"
+      }
+    },
+    "form": {
+      "title": "Vamos Transformar Seu Espaço Juntos",
+      "subtitle": "Atendendo Goose Creek, Summerville, Moncks Corner, Mount Pleasant, Charleston e áreas vizinhas na Carolina do Sul.",
+      "info": {
+        "email": "hello@edercontractor.com",
+        "phone1": "(+1) 404 563-1575",
+        "phone2": "(+1) 404 563-1575"
+      },
+      "formTitle": "Suas Informações",
+      "fields": {
+        "name": {
+          "label": "Seu Nome",
+          "placeholder": "João Silva"
+        },
+        "email": {
+          "label": "Seu Email",
+          "placeholder": "joao@exemplo.com"
+        },
+        "message": {
+          "label": "Mensagem",
+          "placeholder": "Conte-nos sobre seu projeto..."
+        }
+      },
+      "submit": "Enviar Agora"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Assine a Newsletter Para Últimas Atualizações",
+      "placeholder": "Endereço de Email",
+      "button": "Assinar Agora"
+    },
+    "description": "Eder Contractor oferece serviços premium de renovação em Goose Creek e Grande Charleston, SC. Artesanato de qualidade, prazos claros e comunicação confiável em cada trabalho.",
+    "navigation": {
+      "title": "Navegação"
+    },
+    "utility": {
+      "title": "Páginas Úteis"
+    },
+    "contactTitle": "Entre em Contato",
+    "contact": {
+      "email": "hello@edercontractor.com",
+      "phone1": "(+1) 404 563-1575",
+      "phone2": "(+1) 404 563-1575",
+      "location": "Goose Creek, SC"
+    },
+    "copyright": "Design por {{designer}} - Powered by {{platform}}"
+  }
+}
+

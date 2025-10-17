@@ -1,0 +1,203 @@
+{
+  "header": {
+    "nav": {
+      "home": "Inicio",
+      "about": "Acerca de Nosotros",
+      "services": "Servicios",
+      "projects": "Proyectos",
+      "contact": "Contacto"
+    },
+    "cta": "Solicitar Cotización"
+  },
+  "hero": {
+    "badge": "Servicio Premium",
+    "title": "Servicios de Renovación Completa en Goose Creek y Gran Charleston, SC",
+    "subtitle": "Renovación completa, revestimiento, pintura, remediación de moho, renovación de daños por incendio y más. Artesanía de calidad para proyectos residenciales y comerciales.",
+    "cta": {
+      "primary": "Cotización Gratis",
+      "secondary": "Ver Servicios"
+    }
+  },
+  "features": {
+    "feature1": {
+      "title": "Artesanía de Calidad",
+      "description": "Trabajo profesional con atención al detalle en cada proyecto, garantizando resultados duraderos."
+    },
+    "feature2": {
+      "title": "Comunicación Clara",
+      "description": "Cronogramas transparentes y actualizaciones regulares durante todo el proceso."
+    },
+    "feature3": {
+      "title": "Licenciado y Asegurado",
+      "description": "Contratista totalmente certificado sirviendo al área de Charleston con total tranquilidad."
+    }
+  },
+  "about": {
+    "badge": "Acerca de Nosotros",
+    "title": "Servicios Expertos en Renovación",
+    "description": "Eder Contractor ofrece servicios premium de renovación en toda la región de Charleston. Nos especializamos en renovaciones residenciales y comerciales ligeras completas, revestimiento, pintura, remediación de moho, renovación de daños por incendio y mucho más. Nuestro enfoque es artesanía de calidad, comunicación clara y cronogramas confiables.",
+    "stats": {
+      "projects": "Proyectos Completados",
+      "experience": "Años de Experiencia"
+    },
+    "cta": "Contáctanos Hoy"
+  },
+  "services": {
+    "badge": "Nuestros Servicios",
+    "title": "Soluciones Completas de Renovación",
+    "cta": "Ver Todos los Servicios",
+    "list": {
+      "renovation": {
+        "title": "Renovación Completa",
+        "description": "Renovaciones residenciales y comerciales ligeras completas con coordinación integral de proyectos."
+      },
+      "resurfacing": {
+        "title": "Revestimiento y Acabado",
+        "description": "Renueva superficies desgastadas sin reemplazo completo: encimeras, gabinetes y más."
+      },
+      "painting": {
+        "title": "Pintura Interior y Exterior",
+        "description": "Preparación y acabado profesional para capas duraderas y uniformes en todas las áreas."
+      },
+      "mold": {
+        "title": "Remediación de Moho",
+        "description": "Evaluación, contención, eliminación y prevención para ambiente interior saludable."
+      },
+      "fire": {
+        "title": "Renovación de Daños por Incendio",
+        "description": "Limpieza completa, eliminación de olores y renovación estructural después de incidentes de incendio."
+      },
+      "bathroom": {
+        "title": "Remodelación de Baños",
+        "description": "Transformaciones completas de baños: azulejos, accesorios, iluminación e impermeabilización."
+      },
+      "deck": {
+        "title": "Renovación de Decks",
+        "description": "Reparación, lijado, teñido y acabado de decks y estructuras exteriores."
+      },
+      "pressure": {
+        "title": "Lavado a Presión",
+        "description": "Entradas, revestimientos, decks, patios - eliminando suciedad, algas y manchas."
+      },
+      "cabinet": {
+        "title": "Creación de Gabinetes Personalizados",
+        "description": "Diseña y construye gabinetes personalizados adaptados a tu espacio y necesidades."
+      },
+      "cabinetPaint": {
+        "title": "Pintura de Gabinetes",
+        "description": "Acabado profesional para renovar y modernizar gabinetes existentes."
+      },
+      "wallpaper": {
+        "title": "Instalación y Remoción de Papel Tapiz",
+        "description": "Instalación limpia y precisa y remoción segura con preparación adecuada de la pared."
+      },
+      "commercial": {
+        "title": "Proyectos Comerciales",
+        "description": "Servicios de renovación comercial ligera para empresas."
+      }
+    }
+  },
+  "numberTalks": {
+    "badge": "Los Números Hablan",
+    "title": "Eder Contractor te ayudará a concretar tus cosas en realidad.",
+    "description": "Manejamos con éxito tareas de complejidad variable, brindamos garantías a largo plazo y nos perfeccionamos regularmente",
+    "cta": "Solicitar Cotización",
+    "stats": {
+      "projectsCompleted": "Proyectos Completados",
+      "satisfiedClients": "Clientes Satisfechos",
+      "yearsExperience": "Años de Experiencia"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonios",
+    "title": "Lo Que Nuestros Clientes Dicen Sobre Nosotros",
+    "reviews": {
+      "review1": {
+        "text": "Eder Contractor hizo un trabajo increíble en la remodelación de nuestro baño. La atención al detalle fue impresionante y completaron todo a tiempo. ¡Altamente recomendado!",
+        "author": "Sarah Mitchell",
+        "location": "Goose Creek, SC",
+        "rating": "5.0"
+      },
+      "review2": {
+        "text": "Profesional, confiable y excelente trabajo. Transformaron nuestra cocina con refinamiento y pintura de gabinetes. La comunicación fue excepcional.",
+        "author": "Michael Johnson",
+        "location": "Summerville, SC",
+        "rating": "5.0"
+      },
+      "review3": {
+        "text": "Después de daños por incendio, Eder Contractor renovó nuestra casa hermosamente. Fueron compasivos y minuciosos, haciendo un momento difícil mucho más fácil.",
+        "author": "Jennifer Davis",
+        "location": "Charleston, SC",
+        "rating": "5.0"
+      },
+      "review4": {
+        "text": "Excelente experiencia de principio a fin. Nuestro deck se ve nuevo después del trabajo de renovación. Artesanía de calidad a precios justos.",
+        "author": "Robert Thompson",
+        "location": "Moncks Corner, SC",
+        "rating": "5.0"
+      },
+      "review5": {
+        "text": "Excelente servicio de remediación de moho. Explicaron todo claramente e hicieron un trabajo completo. Nuestra casa está segura y saludable nuevamente.",
+        "author": "Lisa Anderson",
+        "location": "Mount Pleasant, SC",
+        "rating": "5.0"
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contáctanos",
+      "breadcrumb": {
+        "home": "Inicio",
+        "current": "Contacto"
+      }
+    },
+    "form": {
+      "title": "Transformemos Tu Espacio Juntos",
+      "subtitle": "Sirviendo a Goose Creek, Summerville, Moncks Corner, Mount Pleasant, Charleston y áreas circundantes en Carolina del Sur.",
+      "info": {
+        "email": "hello@edercontractor.com",
+        "phone1": "(+1) 404 563-1575",
+        "phone2": "(+1) 404 563-1575"
+      },
+      "formTitle": "Tu Información",
+      "fields": {
+        "name": {
+          "label": "Tu Nombre",
+          "placeholder": "Juan Pérez"
+        },
+        "email": {
+          "label": "Tu Email",
+          "placeholder": "juan@ejemplo.com"
+        },
+        "message": {
+          "label": "Mensaje",
+          "placeholder": "Cuéntanos sobre tu proyecto..."
+        }
+      },
+      "submit": "Enviar Ahora"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Suscríbete al Boletín Para Últimas Actualizaciones",
+      "placeholder": "Dirección de Email",
+      "button": "Suscribirse Ahora"
+    },
+    "description": "Eder Contractor ofrece servicios premium de renovación en Goose Creek y Gran Charleston, SC. Artesanía de calidad, cronogramas claros y comunicación confiable en cada trabajo.",
+    "navigation": {
+      "title": "Navegación"
+    },
+    "utility": {
+      "title": "Páginas Útiles"
+    },
+    "contactTitle": "Contáctanos",
+    "contact": {
+      "email": "hello@edercontractor.com",
+      "phone1": "(+1) 404 563-1575",
+      "phone2": "(+1) 404 563-1575",
+      "location": "Goose Creek, SC"
+    },
+    "copyright": "Design por {{designer}} - Powered by {{platform}}"
+  }
+}

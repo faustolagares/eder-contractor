@@ -1,10 +1,13 @@
 import { useState, useEffect } from "react";
-import { Menu, X, ShoppingCart, ChevronDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -16,12 +19,11 @@ const Header = () => {
   }, []);
 
   const navigationLinks = [
-    { label: 'Home', href: '/' },
-    { label: 'About', href: '/about-us' },
-    { label: 'Services', href: '/services' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'Projects', href: '/projects' },
-    { label: 'Shop', href: '/shop' },
+    { label: t('header.nav.home'), href: '/' },
+    { label: t('header.nav.about'), href: '/about-us' },
+    { label: t('header.nav.services'), href: '/services' },
+    { label: t('header.nav.projects'), href: '/projects' },
+    { label: t('header.nav.contact'), href: '/contact' },
   ];
 
   return (
@@ -38,11 +40,9 @@ const Header = () => {
           {/* Logo */}
           <div className="h-8 w-44 max-[479px]:w-[155px]">
             <Link to="/" className="text-zinc-800 cursor-pointer float-left h-8 relative w-44 max-[767px]:pl-[10px] max-[479px]:pl-0">
-              <img 
-                src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/646f0323522f1b87570de476_Logo.png" 
-                alt="Construction Template Logo"
-                className="h-8 max-w-full align-middle w-44 max-[479px]:w-[155px] inline-block" 
-              />
+              <div className="h-8 flex items-center justify-center bg-orange-600 text-white font-bold text-lg rounded px-2">
+                EC
+              </div>
             </Link>
           </div>
 
@@ -61,32 +61,25 @@ const Header = () => {
 
           {/* Actions */}
           <div className="flex items-center gap-x-[1.63rem] h-16">
-            {/* Cart Icon */}
-            <div className="h-9 relative w-9 inline-block">
-              <Link 
-                to="/cart" 
-                className="relative flex items-center justify-center text-white cursor-pointer h-9 w-9 border-2 border-white rounded-full hover:border-orange-600 transition-colors duration-200"
-              >
-                <ShoppingCart size={20} className="text-white" />
-                <div className="absolute -top-2 -right-2 w-5 h-5 bg-orange-600 rounded-full flex items-center justify-center text-xs font-medium text-white min-w-[1.25rem]">
-                  0
-                </div>
-              </Link>
+            {/* Language Switcher */}
+            <div className="hidden lg:block">
+              <LanguageSwitcher />
             </div>
 
             {/* Get a Quote Button - Hidden on mobile/tablet */}
             <div className="h-16 w-44 inline-block max-[991px]:hidden">
               <Link 
-                to="/contact-us" 
-                className="group relative flex flex-col items-center justify-center h-16 w-44 py-5 px-10 bg-orange-600 border-2 border-orange-600 font-semibold overflow-hidden transition-all duration-300 hover:bg-transparent hover:text-white max-[479px]:py-[14px] max-[479px]:px-[30px] max-[991px]:py-4"
+                to="/contact" 
+                className="group relative flex items-center justify-center h-16 w-44 py-5 px-10 bg-orange-600 border-2 border-orange-600 text-black text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-300 hover:bg-transparent hover:text-white"
+                id="header-cta"
               >
-                <div className="relative flex items-center justify-center h-5 overflow-hidden">
-                  <div className="relative h-5 transition-all duration-300 group-hover:-translate-y-full">
-                    Get a Quote
-                  </div>
-                  <div className="absolute h-5 left-0 translate-y-full transition-all duration-300 group-hover:translate-y-0">
-                    Get a Quote
-                  </div>
+                <div className="relative w-full flex items-center justify-center overflow-hidden h-6">
+                  <span className="relative whitespace-nowrap transition-all duration-300 group-hover:-translate-y-full block">
+                    {t('header.cta')}
+                  </span>
+                  <span className="absolute whitespace-nowrap translate-y-full transition-all duration-300 group-hover:translate-y-0 block">
+                    {t('header.cta')}
+                  </span>
                 </div>
               </Link>
             </div>
@@ -110,6 +103,11 @@ const Header = () => {
         }`}
       >
         <div className="flex flex-col py-10 px-5 gap-5">
+          {/* Mobile Language Switcher */}
+          <div className="lg:hidden mb-4">
+            <LanguageSwitcher />
+          </div>
+          
           {navigationLinks.map((link, index) => (
             <Link
               key={index}
@@ -121,11 +119,18 @@ const Header = () => {
             </Link>
           ))}
           <Link
-            to="/contact-us"
-            className="mt-4 bg-orange-600 text-white font-semibold py-4 px-8 text-center hover:bg-transparent hover:border-2 hover:border-orange-600 transition-all duration-300"
+            to="/contact"
+            className="group relative flex items-center justify-center mt-4 h-16 py-4 px-8 bg-orange-600 border-2 border-orange-600 text-black text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-300 hover:bg-transparent hover:text-white"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Get a Quote
+            <div className="relative w-full flex items-center justify-center overflow-hidden h-6">
+              <span className="relative whitespace-nowrap transition-all duration-300 group-hover:-translate-y-full block">
+                {t('header.cta')}
+              </span>
+              <span className="absolute whitespace-nowrap translate-y-full transition-all duration-300 group-hover:translate-y-0 block">
+                {t('header.cta')}
+              </span>
+            </div>
           </Link>
         </div>
       </div>

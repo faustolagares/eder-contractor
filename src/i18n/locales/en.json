@@ -1,0 +1,204 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "contact": "Contact"
+    },
+    "cta": "Get a Quote"
+  },
+  "hero": {
+    "badge": "Premium Service",
+    "title": "Full Renovation Services in Goose Creek & Greater Charleston, SC",
+    "subtitle": "Full renovation, resurfacing, painting, mold remediation, fire damage renovation, and more. Quality craftsmanship for residential & commercial projects.",
+    "cta": {
+      "primary": "Get Free Quote",
+      "secondary": "View Services"
+    }
+  },
+  "features": {
+    "feature1": {
+      "title": "Quality Craftsmanship",
+      "description": "Professional work with attention to detail on every project, ensuring lasting results."
+    },
+    "feature2": {
+      "title": "Clear Communication",
+      "description": "Transparent timelines and regular updates throughout the entire process."
+    },
+    "feature3": {
+      "title": "Licensed & Insured",
+      "description": "Fully certified contractor serving Greater Charleston area with complete peace of mind."
+    }
+  },
+  "about": {
+    "badge": "About Us",
+    "title": "Expert Renovation Services",
+    "description": "Eder Contractor delivers premium renovation services across the Charleston region. We specialize in complete residential and light-commercial renovations, resurfacing, painting, mold remediation, fire damage renovation, and more. Our focus is on quality craftsmanship, clear communication, and reliable timelines.",
+    "stats": {
+      "projects": "Projects Completed",
+      "experience": "Years Experience"
+    },
+    "cta": "Contact Us Today"
+  },
+  "services": {
+    "badge": "Our Services",
+    "title": "Complete Renovation Solutions",
+    "cta": "View All Services",
+    "list": {
+      "renovation": {
+        "title": "Full Renovation",
+        "description": "Complete residential and light-commercial renovations with comprehensive project coordination."
+      },
+      "resurfacing": {
+        "title": "Resurfacing & Refinishing",
+        "description": "Renew worn surfaces without full replacement: countertops, cabinets, and more."
+      },
+      "painting": {
+        "title": "Interior & Exterior Painting",
+        "description": "Professional prep and finish for durable, even coats in all areas."
+      },
+      "mold": {
+        "title": "Mold Remediation",
+        "description": "Assessment, containment, removal, and prevention for healthy indoor environment."
+      },
+      "fire": {
+        "title": "Fire Damage Renovation",
+        "description": "Complete cleanup, odor removal, and structural renovation after fire incidents."
+      },
+      "bathroom": {
+        "title": "Bathroom Remodeling",
+        "description": "Full bathroom transformations: tile, fixtures, lighting, and waterproofing."
+      },
+      "deck": {
+        "title": "Deck Renovation",
+        "description": "Repair, sanding, staining, and refinishing of decks and exterior structures."
+      },
+      "pressure": {
+        "title": "Pressure Washing",
+        "description": "Driveways, siding, decks, patios - removing dirt, algae, and stains."
+      },
+      "cabinet": {
+        "title": "Custom Cabinet Creation",
+        "description": "Design and build custom cabinetry tailored to your space and needs."
+      },
+      "cabinetPaint": {
+        "title": "Cabinet Painting",
+        "description": "Professional refinishing to refresh and modernize existing cabinets."
+      },
+      "wallpaper": {
+        "title": "Wallpaper Install & Removal",
+        "description": "Clean, precise installation and safe removal with proper wall prep."
+      },
+      "commercial": {
+        "title": "Commercial Projects",
+        "description": "Light commercial renovation and renovation services for businesses."
+      }
+    }
+  },
+  "numberTalks": {
+    "badge": "Number Talks",
+    "title": "Eder Contractor will help you get things complete reality.",
+    "description": "We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master",
+    "cta": "Get a Quote",
+    "stats": {
+      "projectsCompleted": "Projects Completed",
+      "satisfiedClients": "Satisfied Clients",
+      "yearsExperience": "Years Experience"
+    }
+  },
+  "testimonials": {
+    "badge": "Testimonials",
+    "title": "What Our Clients Say About Us",
+    "reviews": {
+      "review1": {
+        "text": "Eder Contractor did an amazing job on our bathroom remodel. The attention to detail was impressive, and they completed everything on schedule. Highly recommend!",
+        "author": "Sarah Mitchell",
+        "location": "Goose Creek, SC",
+        "rating": "5.0"
+      },
+      "review2": {
+        "text": "Professional, reliable, and excellent work. They transformed our kitchen with cabinet refinishing and painting. The communication throughout was outstanding.",
+        "author": "Michael Johnson",
+        "location": "Summerville, SC",
+        "rating": "5.0"
+      },
+      "review3": {
+        "text": "After fire damage, Eder Contractor renovated our home beautifully. They were compassionate and thorough, making a difficult time much easier.",
+        "author": "Jennifer Davis",
+        "location": "Charleston, SC",
+        "rating": "5.0"
+      },
+      "review4": {
+        "text": "Great experience from start to finish. Our deck looks brand new after their renovation work. Quality craftsmanship at fair prices.",
+        "author": "Robert Thompson",
+        "location": "Moncks Corner, SC",
+        "rating": "5.0"
+      },
+      "review5": {
+        "text": "Excellent mold remediation service. They explained everything clearly and did a thorough job. Our home is safe and healthy again.",
+        "author": "Lisa Anderson",
+        "location": "Mount Pleasant, SC",
+        "rating": "5.0"
+      }
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "breadcrumb": {
+        "home": "Home",
+        "current": "Contact Us"
+      }
+    },
+    "form": {
+      "title": "Let's Transform Your Space Together",
+      "subtitle": "Serving Goose Creek, Summerville, Moncks Corner, Mount Pleasant, Charleston, and surrounding areas in South Carolina.",
+      "info": {
+        "email": "hello@edercontractor.com",
+        "phone1": "(+1) 404 563-1575",
+        "phone2": "(+1) 404 563-1575"
+      },
+      "formTitle": "Your Information",
+      "fields": {
+        "name": {
+          "label": "Your Name",
+          "placeholder": "John Smith"
+        },
+        "email": {
+          "label": "Your Email",
+          "placeholder": "john@example.com"
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "Tell us about your project..."
+        }
+      },
+      "submit": "Submit Now"
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Subscribe Newsletter For Latest Updates",
+      "placeholder": "Email Address",
+      "button": "Subscribe Now"
+    },
+    "description": "Eder Contractor delivers premium renovation services across Goose Creek and Greater Charleston, SC. Quality craftsmanship, clear timelines, and reliable communication on every job.",
+    "navigation": {
+      "title": "Navigation"
+    },
+    "utility": {
+      "title": "Utility Pages"
+    },
+    "contactTitle": "Contact Us",
+    "contact": {
+      "email": "hello@edercontractor.com",
+      "phone1": "(+1) 404 563-1575",
+      "phone2": "(+1) 404 563-1575",
+      "location": "Goose Creek, SC"
+    },
+    "copyright": "Design by {{designer}} - Powered by {{platform}}"
+  }
+}
+

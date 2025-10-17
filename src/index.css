@@ -96,3 +96,22 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .text-fluid-xl {
+    font-size: clamp(2rem, 5vw, 4.13rem);
+    line-height: 1.1;
+  }
+  .text-fluid-lg {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    line-height: 1.2;
+  }
+  .text-fluid-base {
+    font-size: clamp(1rem, 2vw, 1.125rem);
+    line-height: 1.6;
+  }
+  .text-fluid-sm {
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    line-height: 1.5;
+  }
+}
