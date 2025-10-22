@@ -25,7 +25,7 @@ const Index = () => {
     <>
     <Header />
         <section
-          className="relative w-full h-[140vh] lg:h-[80vh] overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-28 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32"
+          className="relative w-full h-[140vh] lg:h-[80vh] overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-28 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32 z-0"
           style={{ backgroundImage: "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473383e6d3931efc97be3a8_Banner%20Bg%20Hv2.png')" }}
           id="section-1"
         >
@@ -100,14 +100,10 @@ const Index = () => {
             id="div-7"
           >
             <div className="relative w-full h-[600px]">
-              <div 
-                className="absolute inset-0 bg-primary/30 -z-10"
-                id="div-9"
-              ></div>
               <img 
                 src="/assets/photos/eder-hero.png" 
                 alt="Eder Contractor Hero"
-                className="absolute bottom-0 w-full h-full object-contain"
+                className="absolute bottom-0 w-full h-full object-contain scale-105"
                 fetchPriority="high"
                 width="722"
                 height="600"
@@ -141,14 +137,14 @@ const Index = () => {
         id="features-section"
       >
         <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
-            <div className="relative w-full mt-8 md:-mt-20 lg:-mt-24" id="features-div-1">
+            <div className="relative w-full mt-8 md:-mt-20 lg:-mt-32 z-20" id="features-div-1">
             <div 
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full" 
               id="features-div-2"
             >
               {/* Card 1 - Best House Renovation */}
               <div 
-                className="bg-white w-full p-6 md:p-8" 
+                className="bg-white w-full p-6 md:p-8 border-2 border-orange-500/40" 
                 id="features-div-3"
               >
                 <div className="flex items-center gap-x-3 w-full h-9 mb-8" id="features-div-4">
@@ -176,7 +172,7 @@ const Index = () => {
 
               {/* Card 2 - Effective Teamwork */}
               <div 
-                className="bg-white w-full p-6 md:p-8" 
+                className="bg-white w-full p-6 md:p-8 border-2 border-orange-500/40" 
                 id="features-div-5"
               >
                 <div className="flex items-center gap-x-3 w-full h-10 mb-8" id="features-div-6">
@@ -204,7 +200,7 @@ const Index = () => {
 
               {/* Card 3 - Quality Always Matters */}
               <div 
-                className="bg-white w-full p-6 md:p-8" 
+                className="bg-white w-full p-6 md:p-8 border-2 border-orange-500/40" 
                 id="features-div-7"
               >
                 <div className="flex items-center gap-x-3 w-full h-10 mb-8" id="features-div-8">
