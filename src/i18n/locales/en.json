@@ -110,7 +110,8 @@
   },
   "testimonials": {
     "badge": "Testimonials",
-    "title": "What Our Clients Say About Us",
+    "titleLine1": "What Our Clients",
+    "titleLine2": "Say About Us",
     "reviews": {
       "review1": {
         "text": "Eder Contractor did an amazing job on our bathroom remodel. The attention to detail was impressive, and they completed everything on schedule. Highly recommend!",
@@ -179,10 +180,10 @@
     "form": {
       "title": "Let's Transform Your Space Together",
       "subtitle": "Serving Goose Creek, Summerville, Moncks Corner, Mount Pleasant, Charleston, and surrounding areas in South Carolina.",
+      "description": "Ready to transform your home or business? Our experienced team delivers quality renovation and resurfacing services across Greater Charleston. From bathroom remodels to deck restoration, we bring your vision to life with professional craftsmanship and reliable results.",
       "info": {
         "email": "hello@edercontractor.com",
-        "phone1": "(+1) 404 563-1575",
-        "phone2": "(+1) 404 563-1575"
+        "phone": "(404) 563-1575"
       },
       "formTitle": "Your Information",
       "fields": {
@@ -218,8 +219,7 @@
     "contactTitle": "Contact Us",
     "contact": {
       "email": "hello@edercontractor.com",
-      "phone1": "(+1) 404 563-1575",
-      "phone2": "(+1) 404 563-1575",
+      "phone": "(404) 563-1575",
       "location": "Goose Creek, SC"
     },
     "copyright": "Design by {{designer}} - Powered by {{platform}}"

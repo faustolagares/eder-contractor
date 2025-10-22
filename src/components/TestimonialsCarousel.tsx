@@ -116,7 +116,9 @@ const TestimonialsCarousel = () => {
             <div className="bg-orange-600 h-0.5 w-24 max-sm:w-[50px]"></div>
           </div>
           <h2 className="text-3xl md:text-5xl lg:text-[4.75rem] leading-tight lg:leading-[5.38rem] font-bold max-w-full lg:max-w-[730px] mx-auto">
-            {t('testimonials.title')}
+            {t('testimonials.titleLine1')}
+            <br className="md:hidden" />
+            {' '}{t('testimonials.titleLine2')}
           </h2>
         </div>
       </div>

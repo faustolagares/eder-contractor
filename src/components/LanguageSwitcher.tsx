@@ -19,7 +19,7 @@ const LanguageSwitcher = () => {
     <div className="relative group">
       <button className="flex items-center gap-2 px-3 py-2 text-white hover:text-orange-600 transition-colors duration-300">
         <span className="text-lg">{currentLanguage.flag}</span>
-        <span className="text-sm font-medium hidden sm:block">{currentLanguage.name}</span>
+        <span className="text-sm font-medium">{currentLanguage.name}</span>
         <svg className="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
         </svg>

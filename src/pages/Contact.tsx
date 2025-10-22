@@ -30,8 +30,8 @@ const Contact = () => {
       >
         <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
           <div className="items-center flex-col h-auto justify-center text-center w-full flex">
-            <div className="h-auto w-full max-w-xs">
-              <h2 className="text-white text-3xl lg:text-[2.63rem] font-bold h-auto leading-tight w-full">
+            <div className="h-auto w-full max-w-xs pt-[60px] md:pt-0">
+              <h2 className="text-white text-[2.75rem] lg:text-[2.63rem] font-bold h-auto leading-tight w-full">
                 {t('contact.hero.title')}
               </h2>
               <div
@@ -90,7 +90,7 @@ const Contact = () => {
             <div className="h-auto w-full lg:w-[55%] max-w-2xl" id="contact-left-content">
               <div className="h-auto w-full">
                 <h2
-                  className="text-neutral-900 text-3xl lg:text-5xl xl:text-[4.75rem] font-bold h-auto leading-tight mb-6 w-full"
+                  className="text-neutral-900 text-[2.75rem] lg:text-5xl xl:text-[4.75rem] font-bold h-auto leading-tight mb-6 w-full"
                   id="contact-title"
                 >
                   Let's Build Something Great Together.
@@ -99,9 +99,7 @@ const Contact = () => {
                   className="h-auto leading-7 mb-9 w-full"
                   id="contact-description"
                 >
-                  Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit
-                  sed quia consequuntur magni dolores eosrt qui ratione voluptatem sequi
-                  nesciunt. Neque porro.
+                  {t('contact.form.description')}
                 </p>
               </div>
               <div className="h-auto w-full" id="contact-info-list">
@@ -119,7 +117,7 @@ const Contact = () => {
                     </div>
                     <div className="h-auto flex-1">
                       <div className="text-lg lg:text-[1.75rem] font-medium h-auto leading-relaxed">
-                        zohation@gmail.com
+                        hello@edercontractor.com
                       </div>
                     </div>
                   </div>
@@ -136,24 +134,7 @@ const Contact = () => {
                     </div>
                     <div className="h-auto flex-1">
                       <div className="text-lg lg:text-[1.75rem] font-medium h-auto leading-relaxed">
-                        (+008) 2165 35920
-                      </div>
-                    </div>
-                  </div>
-                  <div className="items-center gap-x-5 h-auto w-full flex">
-                    <div
-                      className="items-center bg-orange-600 h-10 justify-center w-10 flex flex-shrink-0"
-                      id="contact-icon-3"
-                    >
-                      <img
-                        src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/647869d8c7b7fd5334b56f8c_Contact%20Icon3.svg"
-                        className="h-7 max-w-full align-middle w-7 inline-block"
-                        alt="Phone"
-                      />
-                    </div>
-                    <div className="h-auto flex-1">
-                      <div className="text-lg lg:text-[1.75rem] font-medium h-auto leading-relaxed">
-                        (+880) 6599 02008
+                        (404) 563-1575
                       </div>
                     </div>
                   </div>
@@ -169,7 +150,7 @@ const Contact = () => {
               >
                 <div className="h-auto mb-10 lg:mb-14 text-center w-full">
                   <h3
-                    className="text-xl lg:text-[1.63rem] font-bold h-auto leading-tight mb-3.5 w-full"
+                    className="text-2xl lg:text-[1.63rem] font-bold h-auto leading-tight mb-3.5 w-full"
                     id="contact-form-title"
                   >
                     Your Information

@@ -26,7 +26,7 @@ const Index = () => {
     <>
     <Header />
     <section
-      className="relative w-full min-h-screen overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-20 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32"
+      className="relative w-full min-h-screen overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-28 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32"
       style={{ backgroundImage: "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473383e6d3931efc97be3a8_Banner%20Bg%20Hv2.png')" }}
       id="section-1"
     >
@@ -37,10 +37,10 @@ const Index = () => {
             className="w-full lg:w-3/5 flex flex-col justify-center space-y-6 md:space-y-8" 
             id="div-2"
           >
-            <div className="w-full" id="div-3">
+            <div className="w-full pt-[60px] md:pt-0" id="div-3">
               <div className="flex items-center gap-x-4 w-full h-5 mb-6" id="div-4">
                 <div className="w-16 sm:w-24 h-0.5 bg-primary" id="div-5"></div>
-                <div className="text-primary text-lg sm:text-xl font-bold italic">{t('hero.badge')}</div>
+                <div className="text-primary text-xl sm:text-xl font-bold italic">{t('hero.badge')}</div>
               </div>
               
               <h2 
@@ -110,12 +110,16 @@ const Index = () => {
                 srcSet="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image-p-500.png 500w, https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image.png 722w"
                 alt="Construction hero"
                 className="absolute bottom-0 w-full h-full object-contain"
+                fetchPriority="high"
+                width="722"
+                height="600"
               />
               
               <img 
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/64734822033acf2e5696c183_Hero%20Image%20Shape1.png" 
                 alt="Shape decoration"
                 className="absolute inset-0 w-full h-full object-contain z-[10]"
+                loading="lazy"
                 id="img-1"
               />
               
@@ -123,6 +127,7 @@ const Index = () => {
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/64734822821a39916e686b22_Hero%20Image%20Shape2.png" 
                 alt="Shape decoration"
                 className="absolute inset-0 w-full h-full object-contain z-[1]"
+                loading="lazy"
                 id="img-2"
               />
               
@@ -134,6 +139,7 @@ const Index = () => {
                   src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473545f75f136c55e4f381f_Hero%20Circel%20Image.png" 
                   alt="Circle decoration"
                   className="w-24 h-24 lg:w-32 lg:h-32"
+                  loading="lazy"
                   id="img-3"
                 />
               </div>
@@ -174,7 +180,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="w-full h-auto">
-                  <h3 className="w-full h-auto text-xl lg:text-2xl font-semibold leading-tight mb-4">
+                  <h3 className="w-full h-auto text-2xl lg:text-2xl font-semibold leading-tight mb-4">
                     {t('features.feature1.title')}
                   </h3>
                   <p className="w-full h-auto text-black/60 leading-relaxed">
@@ -202,7 +208,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="w-full h-auto">
-                  <h3 className="w-full h-auto text-xl lg:text-2xl font-semibold leading-tight mb-4">
+                  <h3 className="w-full h-auto text-2xl lg:text-2xl font-semibold leading-tight mb-4">
                     {t('features.feature2.title')}
                   </h3>
                   <p className="w-full h-auto text-black/60 leading-relaxed">
@@ -230,7 +236,7 @@ const Index = () => {
                   </div>
                 </div>
                 <div className="w-full h-auto">
-                  <h3 className="w-full h-auto text-xl lg:text-2xl font-semibold leading-tight mb-4">
+                  <h3 className="w-full h-auto text-2xl lg:text-2xl font-semibold leading-tight mb-4">
                     {t('features.feature3.title')}
                   </h3>
                   <p className="w-full h-auto text-black/60 leading-relaxed">
@@ -290,7 +296,7 @@ const Index = () => {
                 className="absolute top-[16.25rem] bottom-[29.13rem] left-[11.25rem] right-[17.38rem] w-44 h-12 py-4 px-8 z-[1] hidden md:block" 
                 id="about-div-3"
               >
-                <div className="w-28 h-5 text-2xl font-semibold">Since 1995</div>
+                <div className="w-28 h-5 text-3xl font-semibold">Since 1995</div>
               </div>
               
               <div 
@@ -316,7 +322,7 @@ const Index = () => {
               <div className="w-full max-w-prose lg:max-w-[31.88rem] h-auto mb-5" id="about-div-6">
                 <div className="flex items-center gap-x-4 w-full h-5 mb-6" id="about-div-7">
                   <div className="w-16 sm:w-24 h-0.5 bg-orange-600" id="about-div-8"></div>
-                  <div className="text-orange-600 text-lg sm:text-xl italic font-bold">{t('about.badge')}</div>
+                  <div className="text-orange-600 text-xl sm:text-xl italic font-bold">{t('about.badge')}</div>
                 </div>
                 <h2 className="w-full h-auto mt-6 lg:mt-8 mb-3 text-fluid-lg font-bold" id="about-h2-1">
                   {t('about.title')}
@@ -453,7 +459,7 @@ const Index = () => {
             <div className="w-full lg:w-auto" id="div-2">
               <div className="items-center gap-x-4 flex mb-6" id="div-3">
                 <div className="bg-orange-600 h-0.5 w-16 sm:w-24" id="div-4"></div>
-                <div className="text-orange-600 text-lg sm:text-xl italic font-bold">{t('services.badge')}</div>
+                <div className="text-orange-600 text-xl sm:text-xl italic font-bold">{t('services.badge')}</div>
               </div>
               <h2 className="text-fluid-lg leading-none font-bold mt-4 lg:mt-7" id="h2-1">{t('services.title')}</h2>
             </div>
@@ -482,7 +488,7 @@ const Index = () => {
                 <div className="w-full">
                   <div
                     id="div-2"
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     {/* Background image (hidden until hover) */}
                     <div
@@ -506,7 +512,7 @@ const Index = () => {
                     </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.renovation.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -520,7 +526,7 @@ const Index = () => {
                 <div className="w-full">
                   <div
                     id="div-5"
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -542,7 +548,7 @@ const Index = () => {
                     </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.resurfacing.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -555,8 +561,8 @@ const Index = () => {
                 {/* Service Card 3 - Interior & Exterior Painting */}
                 <div className="w-full">
                   <div
-                    id="div-8"
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    id="service-card-3"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -578,7 +584,7 @@ const Index = () => {
                     </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.painting.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -592,7 +598,7 @@ const Index = () => {
                 <div className="w-full">
                   <div
                     id="div-11"
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -614,7 +620,7 @@ const Index = () => {
                     </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.mold.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -628,7 +634,7 @@ const Index = () => {
                       <div className="w-full">
                   <div
                     id="div-14"
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -650,7 +656,7 @@ const Index = () => {
                     </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.fire.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -664,7 +670,7 @@ const Index = () => {
                 <div className="w-full">
                   <div
                     id="div-17"
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -686,7 +692,7 @@ const Index = () => {
                     </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.bathroom.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -699,7 +705,7 @@ const Index = () => {
                 {/* Service Card 7 - Deck Renovation */}
                 <div className="w-full">
                   <div
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -721,7 +727,7 @@ const Index = () => {
                   </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.deck.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -734,7 +740,7 @@ const Index = () => {
                 {/* Service Card 8 - Pressure Washing */}
                       <div className="w-full">
                   <div
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -756,7 +762,7 @@ const Index = () => {
           </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.pressure.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -769,7 +775,7 @@ const Index = () => {
                 {/* Service Card 9 - Custom Cabinet Creation */}
                 <div className="w-full">
                   <div
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -791,7 +797,7 @@ const Index = () => {
                     </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.cabinet.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -804,7 +810,7 @@ const Index = () => {
                 {/* Service Card 10 - Cabinet Painting */}
                 <div className="w-full">
                   <div
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -826,7 +832,7 @@ const Index = () => {
                       </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.cabinetPaint.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -839,7 +845,7 @@ const Index = () => {
                 {/* Service Card 11 - Wallpaper Install & Removal */}
                       <div className="w-full">
                   <div
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -861,7 +867,7 @@ const Index = () => {
                       </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.wallpaper.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">
@@ -874,7 +880,7 @@ const Index = () => {
                 {/* Service Card 12 - Commercial Projects */}
                 <div className="w-full">
                   <div
-                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-20 md:pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
+                    className="group relative w-full border-2 border-zinc-300 overflow-hidden pb-8 px-6 pt-6 bg-white transition-all duration-300 min-h-[400px] md:min-h-[450px] flex flex-col"
                   >
                     <div
                       aria-hidden="true"
@@ -896,7 +902,7 @@ const Index = () => {
                       </div>
                     {/* Content - Aligned to bottom */}
                     <div className="relative z-10 flex-1 flex flex-col justify-end">
-                      <h3 className="text-2xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
+                      <h3 className="text-3xl lg:text-3xl font-bold text-black group-hover:text-white transition-colors duration-300 mb-4">
                         {t('services.list.commercial.title')}
                       </h3>
                       <p className="text-black/60 group-hover:text-white/80 transition-colors duration-300 leading-relaxed">

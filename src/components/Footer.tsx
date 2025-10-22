@@ -10,25 +10,17 @@ const socialLinks = [
   { name: 'Instagram', icon: Instagram, url: 'https://www.instagram.com/' }
 ];
 
-const navigationColumn1 = [
+const navigationLinks = [
   { labelKey: 'header.nav.home', url: '/' },
   { labelKey: 'header.nav.about', url: '/about-us' },
   { labelKey: 'header.nav.services', url: '/services' },
-  { labelKey: 'header.nav.projects', url: '/projects' }
-];
-
-const navigationColumn2 = [
+  { labelKey: 'header.nav.projects', url: '/projects' },
   { labelKey: 'header.nav.contact', url: '/contact' }
-];
-
-const utilityLinks = [
-  { labelKey: 'footer.utility.title', url: '/' }
 ];
 
 const contactInfo = [
   { icon: Mail, text: 'hello@edercontractor.com', type: 'email' },
-  { icon: Phone, text: '(+1) 404 563-1575', type: 'phone' },
-  { icon: Phone, text: '(+1) 404 563-1575', type: 'phone' },
+  { icon: Phone, text: '(404) 563-1575', type: 'phone' },
   { icon: MapPin, text: 'Goose Creek, SC', type: 'location' }
 ];
 
@@ -48,7 +40,7 @@ const Footer = () => {
         {/* Newsletter Section */}
         <div className="flex items-center justify-between border-b-2 border-white/[0.2] pb-12 mb-16 max-lg:flex-col max-lg:justify-center max-md:mb-[60px] max-md:pb-10 max-sm:pb-[30px]">
           <div className="w-[52%] max-lg:w-full max-lg:mb-8">
-            <h1 className="text-white text-[4.75rem] leading-[5.38rem] font-bold max-lg:max-w-[650px] max-lg:mx-auto max-md:max-w-[480px] max-md:text-[3.5rem] max-md:leading-[4rem] max-sm:max-w-[320px] max-sm:text-[2.5rem] max-sm:leading-[3rem]">
+            <h1 className="text-white text-[4.75rem] leading-[5.38rem] font-bold max-lg:max-w-[650px] max-md:max-w-[480px] max-md:text-[3.5rem] max-md:leading-[4rem] max-sm:max-w-[320px] max-sm:text-[2.5rem] max-sm:leading-[3rem]">
               {t('footer.newsletter.title')}
             </h1>
           </div>
@@ -120,47 +112,13 @@ const Footer = () => {
               {/* Navigation Links */}
               <div>
                 <div className="mb-10 max-md:mb-[35px] max-sm:mb-[30px]">
-                  <h3 className="text-white text-3xl font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
+                  <h3 className="text-white text-[2.25rem] font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
                     {t('footer.navigation.title')}
                   </h3>
                   <div className="bg-orange-600 h-0.5 w-20"></div>
                 </div>
-                <div className="flex justify-between gap-5">
-                  <div className="flex flex-col gap-[1.63rem]">
-                    {navigationColumn1.map((link) => (
-                      <a
-                        key={link.labelKey}
-                        href={link.url}
-                        className="text-white/85 hover:text-orange-600 transition-colors duration-200"
-                      >
-                        {t(link.labelKey)}
-                      </a>
-                    ))}
-                  </div>
-                  <div className="flex flex-col gap-[1.63rem]">
-                    {navigationColumn2.map((link) => (
-                      <a
-                        key={link.labelKey}
-                        href={link.url}
-                        className="text-white/85 hover:text-orange-600 transition-colors duration-200"
-                      >
-                        {t(link.labelKey)}
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-
-              {/* Utility Links */}
-              <div>
-                <div className="mb-10 max-md:mb-[35px] max-sm:mb-[30px]">
-                  <h3 className="text-white text-3xl font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
-                    {t('footer.utility.title')}
-                  </h3>
-                  <div className="bg-orange-600 h-0.5 w-20"></div>
-                </div>
                 <div className="flex flex-col gap-[1.63rem]">
-                  {utilityLinks.map((link) => (
+                  {navigationLinks.map((link) => (
                     <a
                       key={link.labelKey}
                       href={link.url}
@@ -175,7 +133,7 @@ const Footer = () => {
               {/* Contact Info */}
               <div>
                 <div className="mb-10 max-md:mb-[35px] max-sm:mb-[30px]">
-                  <h3 className="text-white text-3xl font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
+                  <h3 className="text-white text-[2.25rem] font-medium leading-10 mb-4 max-md:mb-[10px] max-sm:mb-[7px]">
                     {t('footer.contactTitle')}
                   </h3>
                   <div className="bg-orange-600 h-0.5 w-20"></div>

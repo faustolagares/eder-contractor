@@ -42,12 +42,12 @@ const BeforeAfterSection = () => {
         <div className="text-center mb-12 md:mb-16">
           <div className="flex items-center justify-center gap-4 mb-6">
             <div className="bg-orange-600 h-0.5 w-16 sm:w-24"></div>
-            <div className="text-orange-600 text-lg sm:text-xl italic font-bold whitespace-nowrap">
+            <div className="text-orange-600 text-xl sm:text-xl italic font-bold whitespace-nowrap">
               {t('beforeAfter.badge')}
             </div>
             <div className="bg-orange-600 h-0.5 w-16 sm:w-24"></div>
           </div>
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
+          <h2 className="text-[2.25rem] md:text-5xl lg:text-6xl font-bold mb-4">
             {t('beforeAfter.title')}
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
@@ -75,7 +75,7 @@ const BeforeAfterSection = () => {
                     {project.category}
                   </span>
                 </div>
-                <h3 className="text-xl md:text-2xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors">
+                <h3 className="text-2xl md:text-2xl font-bold text-gray-900 group-hover:text-orange-600 transition-colors">
                   {project.title}
                 </h3>
               </div>
