@@ -115,7 +115,7 @@ const TestimonialsCarousel = () => {
             <div className="text-orange-600 text-xl font-bold">{t('testimonials.badge')}</div>
             <div className="bg-orange-600 h-0.5 w-24 max-sm:w-[50px]"></div>
           </div>
-          <h2 className="text-[4.75rem] leading-[5.38rem] font-bold max-w-[730px] mx-auto max-md:max-w-[450px] max-sm:max-w-[310px]">
+          <h2 className="text-3xl md:text-5xl lg:text-[4.75rem] leading-tight lg:leading-[5.38rem] font-bold max-w-full lg:max-w-[730px] mx-auto">
             {t('testimonials.title')}
           </h2>
         </div>
@@ -123,8 +123,8 @@ const TestimonialsCarousel = () => {
 
       {/* Carousel */}
       <div className="relative w-full pb-32 max-lg:pb-[120px] max-sm:pb-[110px]">
-        <div className="w-full max-w-7xl mx-auto pl-4">
-          <div className="w-[102.25rem] ml-auto overflow-hidden">
+        <div className="w-full max-w-7xl mx-auto px-4 lg:pl-4 lg:pr-0">
+          <div className="w-full lg:w-[102.25rem] ml-auto overflow-hidden">
             <div ref={emblaRef}>
               <div className="flex gap-6">
                 {testimonials.map((testimonial) => (

@@ -86,9 +86,11 @@ const Footer = () => {
           {/* Brand Column */}
           <div className="w-[31%] max-lg:w-full max-lg:max-w-[440px] max-lg:mx-auto">
             <a href="/" className="inline-block mb-8 max-md:mb-[25px]">
-              <div className="h-8 w-44 flex items-center justify-center bg-orange-600 text-white font-bold text-lg rounded px-2">
-                EC
-              </div>
+              <img 
+                src="/assets/logos/eder-contractor-logo-white-symbol.png" 
+                alt="Eder Contractor" 
+                className="h-10 w-auto object-contain"
+              />
             </a>
             <p className="text-white/80 leading-7 mb-7 max-md:max-w-[420px] max-md:mb-5 max-sm:max-w-[275px]">
               {t('footer.description')}

@@ -11,7 +11,7 @@
   },
   "hero": {
     "badge": "Servicio Premium",
-    "title": "Servicios de Renovación Completa en Goose Creek y Gran Charleston, SC",
+    "title": "Renovación Completa y Revestimiento en Gran Charleston, SC",
     "subtitle": "Renovación completa, revestimiento, pintura, remediación de moho, renovación de daños por incendio y más. Artesanía de calidad para proyectos residenciales y comerciales.",
     "cta": {
       "primary": "Cotización Gratis",
@@ -141,6 +141,30 @@
         "author": "Lisa Anderson",
         "location": "Mount Pleasant, SC",
         "rating": "5.0"
+      }
+    }
+  },
+  "beforeAfter": {
+    "badge": "Nuestro Trabajo",
+    "title": "Ve La Diferencia",
+    "subtitle": "Arrastra el control para revelar la transformación",
+    "cta": "Ver Todos los Proyectos",
+    "projects": {
+      "project1": {
+        "title": "Renovación de Baño",
+        "category": "Residencial"
+      },
+      "project2": {
+        "title": "Remodelación de Cocina",
+        "category": "Residencial"
+      },
+      "project3": {
+        "title": "Restauración de Deck",
+        "category": "Exterior"
+      },
+      "project4": {
+        "title": "Pintura Exterior",
+        "category": "Comercial"
       }
     }
   },

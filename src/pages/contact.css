@@ -1,169 +1,79 @@
-/* Contact Page Styles */
+/* Contact Page - Mobile-first responsive styles */
 
-/* Hero Banner Section */
-@media (max-width: 991px) {
+/* Mobile adjustments */
+@media (max-width: 640px) {
   #contact-hero-section {
-    padding-top: 160px !important;
-    padding-bottom: 90px !important;
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
   }
-  #contact-hero-img-1 {
-    max-width: 160px !important;
-  }
-  #contact-hero-img-2 {
-    max-width: 140px !important;
-    left: 20px !important;
-  }
-}
-
-@media (max-width: 767px) {
-  #contact-hero-section {
-    padding-top: 130px !important;
-  }
-  #contact-hero-breadcrumb {
-    margin-top: 10px !important;
-  }
-  #contact-hero-img-1 {
-    max-width: 80px !important;
-  }
-  #contact-hero-img-2 {
-    max-width: 80px !important;
-  }
-}
-
-@media (max-width: 479px) {
-  #contact-hero-section {
-    padding-top: 115px !important;
-    padding-bottom: 60px !important;
-  }
-  #contact-hero-breadcrumb {
-    margin-top: 7px !important;
-  }
-  #contact-hero-img-1 {
-    max-width: 50px !important;
-  }
-  #contact-hero-img-2 {
-    max-width: 30px !important;
-  }
-}
-
-/* Contact Form Section */
-@media (max-width: 991px) {
+  
   #contact-form-section {
-    padding-top: 100px !important;
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
   }
-  #contact-content-wrapper {
-    flex-direction: column !important;
-    align-items: flex-start !important;
-    max-width: 700px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #contact-left-content {
-    width: 100% !important;
-  }
-  #contact-title {
-    margin-bottom: 15px !important;
-  }
-  #contact-description {
-    margin-bottom: 25px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #contact-info-list {
-    justify-content: center !important;
-    align-items: center !important;
-    display: flex !important;
-  }
-  #contact-icon-1,
-  #contact-icon-2,
-  #contact-icon-3 {
-    width: 35px !important;
-    height: 35px !important;
-  }
-  #contact-right-form {
-    width: 100% !important;
-    max-width: 700px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #contact-form-card {
-    padding-left: 35px !important;
-    padding-right: 35px !important;
-  }
-  #contact-form-title {
-    margin-bottom: 10px !important;
-  }
-  #contact-textarea {
-    max-width: 630px !important;
-  }
+  
+  #contact-hero-img-1,
+  #contact-hero-img-2,
   #contact-form-img-1,
   #contact-form-img-2 {
     display: none !important;
   }
+  
+  #contact-left-content {
+    max-width: 100% !important;
+  }
+  
+  #contact-title {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  #contact-form-card {
+    padding: 24px !important;
+  }
+  
+  #contact-submit-btn {
+    width: 100% !important;
+  }
 }
 
-@media (max-width: 767px) {
-  #contact-form-section {
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #contact-hero-section {
     padding-top: 80px !important;
     padding-bottom: 80px !important;
   }
-  #contact-left-content {
-    max-width: 445px !important;
+  
+  #contact-form-section {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+  
+  #contact-content-wrapper {
+    flex-direction: column !important;
+  }
+  
+  #contact-left-content,
+  #contact-right-form {
+    width: 100% !important;
+    max-width: 600px !important;
     margin-left: auto !important;
     margin-right: auto !important;
   }
-  #contact-description {
-    max-width: 480px !important;
-    margin-bottom: 20px !important;
-  }
-  #contact-right-form {
-    max-width: 450px !important;
-  }
-  #contact-form-card {
-    padding: 30px !important;
-  }
-  #contact-textarea {
-    max-width: 390px !important;
-    min-height: 130px !important;
-  }
 }
 
-@media (max-width: 479px) {
-  #contact-form-section {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
-  }
-  #contact-left-content {
-    max-width: 320px !important;
-  }
-  #contact-title {
-    margin-bottom: 10px !important;
-  }
-  #contact-icon-1,
-  #contact-icon-2,
-  #contact-icon-3 {
-    width: 30px !important;
-    height: 30px !important;
-  }
-  #contact-icon-1 img,
-  #contact-icon-2 img,
-  #contact-icon-3 img {
-    width: 20px !important;
-  }
-  #contact-form-card {
-    padding: 20px !important;
-  }
-  #contact-input-name,
-  #contact-input-email {
-    height: 50px !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
-  }
-  #contact-textarea {
-    min-height: 100px !important;
-  }
-  #contact-form-border-img {
-    top: 96px !important;
-  }
+/* Form z-index management */
+#contact-form-card {
+  position: relative;
+  z-index: 20;
 }
 
+#contact-form-img-1,
+#contact-form-img-2 {
+  z-index: 0;
+}
+
+#contact-right-form {
+  position: relative;
+  z-index: 10;
+}

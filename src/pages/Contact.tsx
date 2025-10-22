@@ -25,10 +25,10 @@ const Contact = () => {
           backgroundImage:
             "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6475edadca9bd5720955f13b_Inner%20Banner%20Bg.png')",
         }}
-        className="bg-no-repeat bg-cover box-border text-black/[0.8] text-lg min-h-96 leading-5 pb-40 pt-48 relative w-full overflow-hidden bg-white"
+        className="bg-no-repeat bg-cover relative w-full overflow-hidden bg-white py-16 sm:py-20 md:py-24 lg:py-32"
         id="contact-hero-section"
       >
-        <div className="h-auto px-4 w-full max-w-7xl m-auto">
+        <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
           <div className="items-center flex-col h-auto justify-center text-center w-full flex">
             <div className="h-auto w-full max-w-xs">
               <h2 className="text-white text-3xl lg:text-[2.63rem] font-bold h-auto leading-tight w-full">
@@ -78,10 +78,10 @@ const Contact = () => {
           backgroundImage:
             "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/64786bbfa27d0324116c7d29_Contact%20Us%20BG.png')",
         }}
-        className="bg-no-repeat bg-cover box-border text-black/[0.8] text-lg min-h-screen leading-5 pb-24 pt-36 w-full bg-white"
+        className="bg-no-repeat bg-cover relative w-full bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32"
         id="contact-form-section"
       >
-        <div className="h-auto px-4 w-full max-w-7xl m-auto">
+        <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
           <div
             className="items-start h-auto justify-between w-full flex flex-col lg:flex-row gap-8 lg:gap-12 m-auto"
             id="contact-content-wrapper"

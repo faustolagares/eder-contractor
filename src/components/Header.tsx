@@ -28,21 +28,23 @@ const Header = () => {
 
   return (
     <header 
-      className={`fixed top-0 left-0 right-0 w-full z-50 py-4 transition-all duration-300 max-[767px]:py-4 max-[479px]:py-3 ${
+      className={`fixed top-0 left-0 right-0 w-full z-50 py-4 px-4 sm:px-6 lg:px-8 transition-all duration-300 ${
         isScrolled 
           ? 'bg-black shadow-lg' 
-          : 'bg-transparent'
+          : 'bg-black/80 lg:bg-transparent'
       }`}
     >
-      <div className="h-16 px-4 w-[84.38rem] m-auto max-w-full">
-        <div className="flex items-center justify-between w-full max-w-[82.50rem] h-16 gap-5 mx-auto">
+      <div className="w-full max-w-7xl mx-auto">
+        <div className="flex items-center justify-between w-full h-16 gap-5">
           
           {/* Logo */}
-          <div className="h-8 w-44 max-[479px]:w-[155px]">
-            <Link to="/" className="text-zinc-800 cursor-pointer float-left h-8 relative w-44 max-[767px]:pl-[10px] max-[479px]:pl-0">
-              <div className="h-8 flex items-center justify-center bg-orange-600 text-white font-bold text-lg rounded px-2">
-                EC
-              </div>
+          <div className="h-10 w-auto">
+            <Link to="/" className="cursor-pointer inline-block h-10">
+              <img 
+                src="/assets/logos/eder-contractor-logo-white-symbol.png" 
+                alt="Eder Contractor" 
+                className="h-10 w-auto object-contain"
+              />
             </Link>
           </div>
 
@@ -70,7 +72,7 @@ const Header = () => {
             <div className="h-16 w-44 inline-block max-[991px]:hidden">
               <Link 
                 to="/contact" 
-                className="group relative flex items-center justify-center h-16 w-44 py-5 px-10 bg-orange-600 border-2 border-orange-600 text-black text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-300 hover:bg-transparent hover:text-white"
+                className="group relative flex items-center justify-center h-16 w-44 py-5 px-10 bg-orange-600 border-2 border-orange-600 text-white text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-300 hover:bg-transparent hover:text-white"
                 id="header-cta"
               >
                 <div className="relative w-full flex items-center justify-center overflow-hidden h-6">
@@ -86,11 +88,11 @@ const Header = () => {
 
             {/* Mobile Menu Toggle */}
             <button 
-              className="hidden max-[991px]:block text-white"
+              className="lg:hidden text-white p-2"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle mobile menu"
             >
-              {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+              {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
             </button>
           </div>
         </div>
@@ -120,7 +122,7 @@ const Header = () => {
           ))}
           <Link
             to="/contact"
-            className="group relative flex items-center justify-center mt-4 h-16 py-4 px-8 bg-orange-600 border-2 border-orange-600 text-black text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-300 hover:bg-transparent hover:text-white"
+            className="group relative flex items-center justify-center mt-4 h-16 py-4 px-8 bg-orange-600 border-2 border-orange-600 text-white text-sm font-semibold uppercase cursor-pointer overflow-hidden transition-all duration-300 hover:bg-transparent hover:text-white"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             <div className="relative w-full flex items-center justify-center overflow-hidden h-6">

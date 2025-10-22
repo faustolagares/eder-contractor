@@ -1,36 +1,49 @@
-@media (max-width: 479px) {
+/* Number Talks Section - Mobile-first responsive styles */
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+  #section-1 {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+  
   #div-1 {
-    grid-template-columns: 1fr !important;
+    flex-direction: column !important;
   }
+  
   #div-2 {
-    height: 52px !important;
+    width: 100% !important;
+    max-width: 100% !important;
   }
-  #div-3 {
-    height: 52px !important;
-  }
-  #div-4 {
-    height: 52px !important;
-  }
-  #div-5 {
-    height: 52px !important;
+  
+  #img-1, #img-2 {
+    display: none !important;
   }
 }
 
-@media (max-width: 991px) {
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #section-1 {
+    padding-top: 64px !important;
+    padding-bottom: 64px !important;
+  }
+  
+  #div-1 {
+    flex-direction: column !important;
+  }
+  
   #div-2 {
-    justify-content: center !important; 
-    height: 72px !important;
+    width: 100% !important;
+    max-width: 600px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
   }
-  #div-3 {
-    justify-content: center !important; 
-    height: 72px !important;
+  
+  #img-1 {
+    width: 300px !important;
   }
-  #div-4 {
-    justify-content: center !important; 
-    height: 72px !important;
-  }
-  #div-5 {
-    justify-content: center !important; 
-    height: 72px !important;
+  
+  #img-2 {
+    width: 140px !important;
   }
 }

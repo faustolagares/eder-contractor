@@ -13,95 +13,79 @@
   line-height: 24px;
 }
 
-/* Services Section Container Fix - Updated for responsive design */
-#services-section {
-  width: 100%;
+/* Hero stacking fixes */
+#div-7 > div.relative > img:first-of-type {
+  position: relative !important;
+  z-index: 20 !important;
 }
 
-#services-section > div {
-  max-width: 80rem !important; /* 1280px - equivalente ao max-w-7xl */
+#div-8 {
+  position: relative !important;
+  z-index: 30 !important;
 }
 
-/* Tablet breakpoint (768px - 1024px) */
-@media (max-width: 1024px) and (min-width: 768px) {
+#div-9 {
+  z-index: -10 !important;
+}
+
+#img-1 {
+  z-index: 10 !important;
+}
+
+#img-2 {
+  z-index: 1 !important;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 640px) {
   #section-1 {
-    padding-top: 180px !important;
+    padding-top: 80px !important;
   }
-  #div-1 {
-    flex-direction: column !important;
-    gap: 2rem !important;
-  }
-  #div-2 {
-    width: 100% !important;
-    max-width: 600px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #div-7 {
-    width: 100% !important;
-    max-width: 500px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
-
-/* Mobile breakpoint (max-width: 767px) */
-@media (max-width: 767px) {
-  #section-1 {
-    padding-top: 160px !important;
-  }
-  #div-1 {
-    flex-direction: column !important;
-    gap: 1.5rem !important;
-  }
-  #div-2 {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #div-3 {
-    padding-top: 0 !important;
-  }
-  #div-4 {
-    flex-direction: column-reverse !important;
-    justify-content: center !important;
-  }
-  #h2-1 {
-    margin-top: 20px !important;
-    margin-bottom: 15px !important;
-  }
-  #p-1 {
-    max-width: 100% !important;
-    margin-bottom: 20px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #div-6 {
-    justify-content: center !important;
-    align-items: center !important;
-    margin-bottom: 20px !important;
-  }
+  
   #a-1, #a-2, #about-a-1, #services-a-1, #number-talks-a-1 {
-    padding-top: 16px !important;
-    padding-bottom: 16px !important;
-    min-width: 160px !important;
+    padding: 14px 24px !important;
+    min-width: 140px !important;
   }
-  #a-1 > div, #a-2 > div, #about-a-1 > div, #services-a-1 > div, #number-talks-a-1 > div {
-    height: 24px !important;
-  }
+  
+  /* Hero images container adjustments for mobile */
   #div-7 {
-    width: 100% !important;
-    max-width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    height: 300px !important;
+    margin-top: 2rem !important;
   }
+  
+  #div-7 > div.relative {
+    height: 300px !important;
+  }
+  
+  #img-1, #img-2 {
+    display: block !important;
+    opacity: 0.8 !important;
+  }
+  
+  #div-8 {
+    width: 100px !important;
+    height: 100px !important;
+    bottom: 90px !important;
+  }
+  
+  #img-3 {
+    width: 75px !important;
+  }
+}
+
+/* Tablet adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  #section-1 {
+    padding-top: 100px !important;
+  }
+  
   #img-1 {
     max-width: 350px !important;
     display: block !important;
     bottom: -29px !important;
     right: 20px !important;
   }
+  
   #img-2 {
     width: 100% !important;
     max-width: 295px !important;
@@ -109,188 +93,15 @@
     bottom: -180px !important;
     left: 20px !important;
   }
+  
   #div-8 {
     width: 120px !important;
     height: 120px !important;
     bottom: 150px !important;
     left: -3% !important;
   }
+  
   #img-3 {
     width: 90px !important;
   }
-  #div-9 {
-    display: none !important;
-  }
 }
-
-/* Small mobile breakpoint (max-width: 479px) */
-@media (max-width: 479px) {
-  #section-1 {
-    padding-top: 140px !important;
-  }
-  #div-2 {
-    max-width: 100% !important;
-  }
-  #h2-1 {
-    margin-top: 15px !important;
-    margin-bottom: 10px !important;
-  }
-  #p-1 {
-    max-width: 100% !important;
-  }
-  #div-6 {
-    flex-direction: column !important;
-    margin-bottom: 15px !important;
-  }
-  #a-1, #a-2, #about-a-1, #services-a-1, #number-talks-a-1 {
-    padding: 14px 24px !important;
-    min-width: 140px !important;
-  }
-  #a-1 > div, #a-2 > div, #about-a-1 > div, #services-a-1 > div, #number-talks-a-1 > div {
-    height: 24px !important;
-  }
-  #div-7 {
-    max-width: 100% !important;
-  }
-  #img-1 {
-    max-width: 300px !important;
-    display: none !important;
-  }
-  #img-2 {
-    display: none !important;
-  }
-  #div-8 {
-    width: 100px !important;
-    height: 100px !important;
-    bottom: 90px !important;
-  }
-  #img-3 {
-    width: 75px !important;
-  }
-}
-
-
-/* Hero stacking fixes */
-#div-7 > div.relative > img:first-of-type {
-  position: relative !important;
-  z-index: 20 !important;
-}
-#div-8 {
-  position: relative !important;
-  z-index: 30 !important;
-}
-#div-9 {
-  z-index: -10 !important;
-}
-#img-1 {
-  z-index: 10 !important;
-}
-#img-2 {
-  z-index: 1 !important;
-}
-
-/* Features Section Responsive Styles - Updated */
-@media (max-width: 1024px) {
-  #features-div-2 {
-    grid-template-columns: 1fr 1fr !important;
-  }
-  #features-section {
-    padding-bottom: 80px !important;
-  }
-}
-
-@media (max-width: 767px) {
-  #features-div-2 {
-    grid-template-columns: 1fr !important;
-  }
-  #features-section {
-    padding-bottom: 60px !important;
-  }
-}
-
-@media (max-width: 479px) {
-  #features-section {
-    padding-bottom: 40px !important;
-  }
-  #features-div-1 {
-    margin-top: -40px !important;
-  }
-}
-
-/* About Us Section Responsive Styles - Simplified */
-@media (max-width: 1024px) {
-  #about-section {
-    padding-top: 80px !important;
-    padding-bottom: 80px !important;
-  }
-  #about-div-1 {
-    flex-direction: column-reverse !important;
-  }
-  #about-div-2 {
-    width: 100% !important;
-    max-width: 600px !important;
-    height: 600px !important;
-  }
-  #about-div-5 {
-    width: 100% !important;
-    max-width: 700px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
-
-@media (max-width: 767px) {
-  #about-section {
-    padding-top: 60px !important;
-    padding-bottom: 60px !important;
-  }
-  #about-div-2 {
-    max-width: 100% !important;
-    height: 400px !important;
-  }
-}
-
-@media (max-width: 479px) {
-  #about-section {
-    padding-top: 40px !important;
-    padding-bottom: 40px !important;
-  }
-  #about-div-2 {
-    height: 300px !important;
-  }
-}
-
-/* Services Section Responsive Styles - Simplified */
-@media (max-width: 1024px) {
-  #services-section {
-    padding-bottom: 80px !important;
-  }
-  #services-section #div-1 {
-    flex-direction: column !important;
-    margin-bottom: 40px !important;
-  }
-  #services-section #div-2 {
-    width: 100% !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  #services-section #h2-1 {
-    max-width: 100% !important;
-    margin-top: 20px !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-}
-
-@media (max-width: 767px) {
-  #services-section {
-    padding-bottom: 60px !important;
-  }
-}
-
-@media (max-width: 479px) {
-  #services-section {
-    padding-bottom: 40px !important;
-  }
-}
-

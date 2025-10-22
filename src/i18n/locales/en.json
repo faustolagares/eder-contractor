@@ -11,7 +11,7 @@
   },
   "hero": {
     "badge": "Premium Service",
-    "title": "Full Renovation Services in Goose Creek & Greater Charleston, SC",
+    "title": "Full Renovation & Resurfacing in Greater Charleston, SC",
     "subtitle": "Full renovation, resurfacing, painting, mold remediation, fire damage renovation, and more. Quality craftsmanship for residential & commercial projects.",
     "cta": {
       "primary": "Get Free Quote",
@@ -141,6 +141,30 @@
         "author": "Lisa Anderson",
         "location": "Mount Pleasant, SC",
         "rating": "5.0"
+      }
+    }
+  },
+  "beforeAfter": {
+    "badge": "Our Work",
+    "title": "See The Difference",
+    "subtitle": "Drag the slider to reveal the transformation",
+    "cta": "View All Projects",
+    "projects": {
+      "project1": {
+        "title": "Bathroom Renovation",
+        "category": "Residential"
+      },
+      "project2": {
+        "title": "Kitchen Remodeling",
+        "category": "Residential"
+      },
+      "project3": {
+        "title": "Deck Restoration",
+        "category": "Outdoor"
+      },
+      "project4": {
+        "title": "Exterior Painting",
+        "category": "Commercial"
       }
     }
   },
