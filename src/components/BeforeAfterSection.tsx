@@ -36,7 +36,7 @@ const BeforeAfterSection = () => {
   ];
 
   return (
-    <section className="relative w-full overflow-visible bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32">
+    <section id="projects-section" className="relative w-full overflow-visible bg-white py-12 sm:py-16 md:py-20 lg:py-24 xl:py-32">
       <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
         {/* Section Header */}
         <div className="text-center mb-12 md:mb-16">

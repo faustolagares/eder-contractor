@@ -20,9 +20,9 @@ const Header = () => {
 
   const navigationLinks = [
     { label: t('header.nav.home'), href: '/' },
-    { label: t('header.nav.about'), href: '/about-us' },
-    { label: t('header.nav.services'), href: '/services' },
-    { label: t('header.nav.projects'), href: '/projects' },
+    { label: t('header.nav.about'), href: '#about-section' },
+    { label: t('header.nav.services'), href: '#services-section' },
+    { label: t('header.nav.projects'), href: '#projects-section' },
     { label: t('header.nav.contact'), href: '/contact' },
   ];
 
@@ -51,13 +51,23 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="items-center gap-x-[2.88rem] float-right h-5 relative flex max-[991px]:hidden">
             {navigationLinks.map((link, index) => (
-              <Link
-                key={index}
-                to={link.href}
-                className="text-white cursor-pointer font-semibold h-5 relative align-top inline-block hover:text-orange-600 transition-colors duration-200"
-              >
-                {link.label}
-              </Link>
+              link.href.startsWith('#') ? (
+                <a
+                  key={index}
+                  href={link.href}
+                  className="text-white cursor-pointer font-semibold h-5 relative align-top inline-block hover:text-orange-600 transition-colors duration-200"
+                >
+                  {link.label}
+                </a>
+              ) : (
+                <Link
+                  key={index}
+                  to={link.href}
+                  className="text-white cursor-pointer font-semibold h-5 relative align-top inline-block hover:text-orange-600 transition-colors duration-200"
+                >
+                  {link.label}
+                </Link>
+              )
             ))}
           </nav>
 
@@ -111,14 +121,25 @@ const Header = () => {
           </div>
           
           {navigationLinks.map((link, index) => (
-            <Link
-              key={index}
-              to={link.href}
-              className="text-white font-semibold text-lg hover:text-orange-600 transition-colors duration-200"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              {link.label}
-            </Link>
+            link.href.startsWith('#') ? (
+              <a
+                key={index}
+                href={link.href}
+                className="text-white font-semibold text-lg hover:text-orange-600 transition-colors duration-200"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={index}
+                to={link.href}
+                className="text-white font-semibold text-lg hover:text-orange-600 transition-colors duration-200"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            )
           ))}
           <Link
             to="/contact"
