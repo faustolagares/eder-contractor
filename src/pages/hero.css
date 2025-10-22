@@ -61,7 +61,6 @@
     position: absolute !important;
     bottom: 0 !important;
     top: auto !important;
-    transform: translateY(-10%) !important;
     z-index: 20 !important;
   }
   

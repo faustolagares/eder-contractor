@@ -24,11 +24,11 @@ const Index = () => {
   return (
     <>
     <Header />
-    <section
-      className="relative w-full h-[120vh] lg:h-[80vh] overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-28 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32"
-      style={{ backgroundImage: "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473383e6d3931efc97be3a8_Banner%20Bg%20Hv2.png')" }}
-      id="section-1"
-    >
+        <section
+          className="relative w-full h-[140vh] lg:h-[80vh] overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-28 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32"
+          style={{ backgroundImage: "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473383e6d3931efc97be3a8_Banner%20Bg%20Hv2.png')" }}
+          id="section-1"
+        >
       <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="flex flex-col lg:flex-row justify-between items-center w-full gap-8 lg:gap-12" id="div-1">
           {/* Left Content */}
