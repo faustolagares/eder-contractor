@@ -56,11 +56,11 @@ const BeforeAfterSection = () => {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 md:gap-8 lg:gap-12">
           {projects.map((project) => (
             <div key={project.id} className="group">
               {/* Image Comparison */}
-              <div className="mb-4 overflow-hidden rounded-lg shadow-xl">
+              <div className="mb-3 md:mb-4 overflow-hidden shadow-xl rounded-none">
                 <ImageComparisonSlider
                   beforeImage={project.beforeImage}
                   afterImage={project.afterImage}
