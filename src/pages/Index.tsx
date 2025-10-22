@@ -15,7 +15,6 @@ const Index = () => {
   const { transform: transform1, elementRef: ref1 } = useScrollAnimation<HTMLImageElement>({ speed: 0.15 });
   const { transform: transform2, elementRef: ref2 } = useScrollAnimation<HTMLImageElement>({ speed: -0.15 });
   const { transform: transform3, elementRef: ref3 } = useScrollAnimation<HTMLImageElement>({ speed: 0.05 });
-  const { transform: transform4, elementRef: ref4 } = useScrollAnimation<HTMLDivElement>({ speed: -0.08 });
   
   // Scroll to top when component mounts
   useEffect(() => {
@@ -130,19 +129,6 @@ const Index = () => {
                 loading="lazy"
                 id="img-2"
               />
-              
-              <div 
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 lg:w-44 lg:h-44 flex items-center justify-center rounded-full z-[3]"
-                id="div-8"
-              >
-                <img 
-                  src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473545f75f136c55e4f381f_Hero%20Circel%20Image.png" 
-                  alt="Circle decoration"
-                  className="w-24 h-24 lg:w-32 lg:h-32"
-                  loading="lazy"
-                  id="img-3"
-                />
-              </div>
             </div>
           </div>
         </div>
@@ -298,23 +284,6 @@ const Index = () => {
               >
                 <div className="w-28 h-5 text-3xl font-semibold">Since 1995</div>
               </div>
-              
-              <div 
-                ref={ref4}
-                className="absolute top-[-1.13rem] bottom-[37.63rem] left-[30.25rem] right-[-2.75rem] w-48 h-48 items-center justify-center rounded-full z-[1] min-[1920px]:w-48 min-[1920px]:h-48 min-[1920px]:top-[-1.13rem] min-[1920px]:right-[-2.81rem] hidden md:flex" 
-                style={{ 
-                  willChange: 'transform',
-                  transform: `translateY(${transform4}px)`
-                }}
-                id="about-div-4"
-              >
-                <img 
-                  src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/646f61b01e3793b7399b7d8c_About%20Us%20Circel%20Image.png" 
-                  alt="Circular decoration"
-                  className="w-36 h-40 max-w-full overflow-clip min-[1920px]:w-36"
-                  id="about-img-4" 
-                />
-              </div>
             </div>
 
             {/* Right - Content */}
@@ -333,100 +302,21 @@ const Index = () => {
               </div>
 
               {/* Statistics */}
-              <div className="flex flex-col sm:flex-row items-center gap-x-[3.13rem] w-full max-w-[31.88rem] h-auto mb-10" id="about-div-9">
-                <div className="w-full sm:w-48 h-auto mb-6 sm:mb-0">
-                  <div className="flex items-center justify-center sm:justify-start w-full h-20 overflow-hidden" id="about-div-10">
-                    <div className="w-12 h-[58.50rem]" style={{ overflow: 'visible' }}>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">2</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">6</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">7</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">8</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                    </div>
-                    <div className="w-12 h-[58.50rem]" style={{ overflow: 'visible' }}>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">1</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">1</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">9</h2>
-                    </div>
-                    <div className="w-12 h-[58.50rem]" style={{ overflow: 'visible' }}>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">2</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">6</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">7</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">8</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                    </div>
-                    <div className="w-12 h-24 pt-1.5 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold flex items-center justify-center">+</div>
+              <div className="flex flex-col sm:flex-row items-center gap-8 sm:gap-12 w-full mb-10">
+                {/* Projects Completed */}
+                <div className="text-center sm:text-left">
+                  <div className="flex items-center justify-center sm:justify-start mb-3">
+                    <h2 className="text-orange-600 text-5xl sm:text-6xl lg:text-7xl font-bold">300+</h2>
                   </div>
-                  <div className="w-full h-5 mt-3">
-                    <div className="w-full h-5 font-medium text-center sm:text-left">{t('about.stats.projects')}</div>
-                  </div>
+                  <p className="text-gray-700 font-medium text-lg">{t('about.stats.projects')}</p>
                 </div>
 
-                <div className="w-full sm:w-36 h-auto">
-                  <div className="flex items-center justify-center sm:justify-start w-full h-20 overflow-hidden" id="about-div-11">
-                    <div className="w-12 h-[58.50rem]" style={{ overflow: 'visible' }}>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">2</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">2</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">5</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">6</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">7</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">8</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">2</h2>
-                    </div>
-                    <div className="w-12 h-[58.50rem]" style={{ overflow: 'visible' }}>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">1</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">1</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">9</h2>
-                    </div>
-                    <div className="w-12 h-[58.50rem]" style={{ overflow: 'visible' }}>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">2</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">3</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">4</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">6</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">7</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">8</h2>
-                      <h2 className="relative w-12 h-20 text-orange-600 text-4xl sm:text-5xl lg:text-[4.75rem] leading-none font-bold">0</h2>
-                    </div>
+                {/* Years Experience */}
+                <div className="text-center sm:text-left">
+                  <div className="flex items-center justify-center sm:justify-start mb-3">
+                    <h2 className="text-orange-600 text-5xl sm:text-6xl lg:text-7xl font-bold">10</h2>
                   </div>
-                  <div className="w-full h-5 mt-3">
-                    <div className="w-full h-5 font-medium text-center sm:text-left">{t('about.stats.experience')}</div>
-                  </div>
+                  <p className="text-gray-700 font-medium text-lg">{t('about.stats.experience')}</p>
                 </div>
               </div>
 
