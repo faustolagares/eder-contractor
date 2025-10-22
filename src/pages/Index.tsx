@@ -244,11 +244,17 @@ const Index = () => {
           <div className="flex flex-col-reverse lg:flex-row items-center gap-8 lg:gap-12 w-full" id="about-div-1">
             {/* Left - Image Gallery */}
             <div className="relative w-full lg:w-1/2 h-[400px] sm:h-[500px] lg:h-[600px]" id="about-div-2">
+              {/* Mobile Image */}
+              <img 
+                src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473592a821a39916e73809b_Hv2%20About%20Us%20Image1.png" 
+                alt="About Us"
+                className="w-full h-full object-cover md:hidden"
+              />
               <img 
                 ref={ref1}
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473592a821a39916e73809b_Hv2%20About%20Us%20Image1.png" 
                 alt="About Us"
-                className="absolute bottom-[15.38rem] right-[13.38rem] w-96 h-[33.25rem] max-w-full overflow-clip z-[1] min-[1920px]:w-96 hidden md:block"
+                className="absolute bottom-[10.8rem] right-[13.38rem] w-96 h-[33.25rem] max-w-full overflow-clip z-[1] min-[1920px]:w-96 hidden md:block"
                 style={{ 
                   willChange: 'transform',
                   transform: `translateY(${transform1}px)`
@@ -259,7 +265,7 @@ const Index = () => {
                 ref={ref2}
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473592a4eeb1ff94a516f73_Hv2%20About%20Us%20Image2.png" 
                 alt="About Us"
-                className="absolute top-[16.75rem] left-[14.38rem] w-96 h-[31.88rem] max-w-full overflow-clip z-[1] hidden md:block"
+                className="absolute top-[9.4rem] left-[14.38rem] w-96 h-[31.88rem] max-w-full overflow-clip z-[1] hidden md:block"
                 style={{ 
                   willChange: 'transform',
                   transform: `translateY(${transform2}px)`
@@ -270,20 +276,13 @@ const Index = () => {
                 ref={ref3}
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/64735a161b9079853db0787e_About%20Us%20Image%20Shape.png" 
                 alt="Shape decoration"
-                className="absolute top-[0.38rem] bottom-[2.88rem] left-[6.00rem] right-[1.63rem] w-[32.00rem] h-[45.38rem] max-w-full overflow-clip hidden md:block"
+                className="absolute top-[-0.85rem] bottom-[2.88rem] left-[6.00rem] right-[1.63rem] w-[32.00rem] h-[45.38rem] max-w-full overflow-clip hidden md:block"
                 style={{ 
                   willChange: 'transform',
                   transform: `translateY(${transform3}px)`
                 }}
                 id="about-img-3" 
               />
-              
-              <div 
-                className="absolute top-[16.25rem] bottom-[29.13rem] left-[11.25rem] right-[17.38rem] w-44 h-12 py-4 px-8 z-[1] hidden md:block" 
-                id="about-div-3"
-              >
-                <div className="w-28 h-5 text-3xl font-semibold">Since 1995</div>
-              </div>
             </div>
 
             {/* Right - Content */}
