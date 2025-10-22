@@ -49,17 +49,34 @@
   
   /* Hero images container adjustments for mobile */
   #div-7 {
-    height: 300px !important;
+    height: 600px !important;
     margin-top: 2rem !important;
   }
   
   #div-7 > div.relative {
-    height: 300px !important;
+    height: 600px !important;
   }
   
-  #img-1, #img-2 {
+  #div-7 > div.relative > img:first-of-type {
+    position: absolute !important;
+    bottom: 0 !important;
+    top: auto !important;
+    transform: translateY(-10%) !important;
+    z-index: 20 !important;
+  }
+  
+  #img-1 {
     display: block !important;
-    opacity: 0.8 !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 10 !important;
+  }
+  
+  #img-2 {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
   }
   
   #div-8 {

@@ -25,7 +25,7 @@ const Index = () => {
     <>
     <Header />
     <section
-      className="relative w-full min-h-screen overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-28 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32"
+      className="relative w-full h-[120vh] lg:h-[80vh] overflow-hidden bg-white bg-cover bg-no-repeat bg-center pt-28 md:pt-24 lg:pt-32 pb-16 sm:pb-20 md:pb-24 lg:pb-32"
       style={{ backgroundImage: "url('https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473383e6d3931efc97be3a8_Banner%20Bg%20Hv2.png')" }}
       id="section-1"
     >
@@ -105,9 +105,8 @@ const Index = () => {
                 id="div-9"
               ></div>
               <img 
-                src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image.png" 
-                srcSet="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image-p-500.png 500w, https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/6473477da8934fab32a6c309_Hero%20Image.png 722w"
-                alt="Construction hero"
+                src="/assets/photos/eder-hero.png" 
+                alt="Eder Contractor Hero"
                 className="absolute bottom-0 w-full h-full object-contain"
                 fetchPriority="high"
                 width="722"
@@ -118,7 +117,7 @@ const Index = () => {
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/64734822033acf2e5696c183_Hero%20Image%20Shape1.png" 
                 alt="Shape decoration"
                 className="absolute inset-0 w-full h-full object-contain z-[10]"
-                loading="lazy"
+                loading="eager"
                 id="img-1"
               />
               
@@ -126,7 +125,7 @@ const Index = () => {
                 src="https://cdn.prod.website-files.com/646ef7a4c51366af95b5a706/64734822821a39916e686b22_Hero%20Image%20Shape2.png" 
                 alt="Shape decoration"
                 className="absolute inset-0 w-full h-full object-contain z-[1]"
-                loading="lazy"
+                loading="eager"
                 id="img-2"
               />
             </div>
@@ -142,7 +141,7 @@ const Index = () => {
         id="features-section"
       >
         <div className="w-full max-w-7xl px-4 sm:px-6 lg:px-8 mx-auto">
-          <div className="relative w-full -mt-16 sm:-mt-20 md:-mt-24" id="features-div-1">
+            <div className="relative w-full mt-8 md:-mt-20 lg:-mt-24" id="features-div-1">
             <div 
               className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 w-full" 
               id="features-div-2"
