@@ -7,15 +7,15 @@ const BeforeAfterSection = () => {
   const projects = [
     {
       id: 'bathroom-renovation',
-      beforeImage: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=600&fit=crop',
-      afterImage: 'https://images.unsplash.com/photo-1620626011761-996317b8d101?w=800&h=600&fit=crop',
+      beforeImage: '/assets/photos/Before-After/Surface-before.jpg',
+      afterImage: '/assets/photos/Before-After/Surface-after.png',
       title: t('beforeAfter.projects.project1.title'),
       category: t('beforeAfter.projects.project1.category'),
     },
     {
       id: 'kitchen-remodel',
-      beforeImage: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop',
-      afterImage: 'https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&h=600&fit=crop',
+      beforeImage: '/assets/photos/Before-After/sparkhotel-before.png',
+      afterImage: '/assets/photos/Before-After/sparkhotel-after.JPG',
       title: t('beforeAfter.projects.project2.title'),
       category: t('beforeAfter.projects.project2.category'),
     },

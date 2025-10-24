@@ -152,12 +152,12 @@
     "cta": "View All Projects",
     "projects": {
       "project1": {
-        "title": "Bathroom Renovation",
+        "title": "Bathtub Resurfacing",
         "category": "Residential"
       },
       "project2": {
-        "title": "Kitchen Remodeling",
-        "category": "Residential"
+        "title": "Hotel Exterior Painting",
+        "category": "Commercial"
       },
       "project3": {
         "title": "Deck Restoration",

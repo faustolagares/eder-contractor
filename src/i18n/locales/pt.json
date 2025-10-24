@@ -152,12 +152,12 @@
     "cta": "Ver Todos os Projetos",
     "projects": {
       "project1": {
-        "title": "Renovação de Banheiro",
+        "title": "Revestimento de Banheira",
         "category": "Residencial"
       },
       "project2": {
-        "title": "Remodelação de Cozinha",
-        "category": "Residencial"
+        "title": "Pintura Externa de Hotel",
+        "category": "Comercial"
       },
       "project3": {
         "title": "Restauração de Deck",

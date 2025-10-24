@@ -65,7 +65,7 @@ const ImageComparisonSlider = ({ beforeImage, afterImage, altText }: ImageCompar
   return (
     <div
       ref={containerRef}
-      className="relative w-full aspect-[4/3] overflow-hidden cursor-ew-resize select-none rounded-none"
+      className="relative w-full aspect-[3/4] overflow-hidden cursor-ew-resize select-none rounded-none"
       onMouseDown={handleMouseDown}
       onTouchStart={() => setIsDragging(true)}
     >
