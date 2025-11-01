@@ -160,12 +160,12 @@
         "category": "Commercial"
       },
       "project3": {
-        "title": "Deck Restoration",
+        "title": "Fence Installation",
         "category": "Outdoor"
       },
       "project4": {
-        "title": "Exterior Painting",
-        "category": "Commercial"
+        "title": "Deck Installation",
+        "category": "Outdoor"
       }
     }
   },
@@ -182,25 +182,159 @@
       "subtitle": "Serving Goose Creek, Summerville, Moncks Corner, Mount Pleasant, Charleston, and surrounding areas in South Carolina.",
       "description": "Ready to transform your home or business? Our experienced team delivers quality renovation and resurfacing services across Greater Charleston. From bathroom remodels to deck restoration, we bring your vision to life with professional craftsmanship and reliable results.",
       "info": {
-        "email": "hello@edercontractor.com",
+        "email": "edercontractorusa@gmail.com",
         "phone": "(404) 563-1575"
       },
       "formTitle": "Your Information",
       "fields": {
-        "name": {
-          "label": "Your Name",
-          "placeholder": "John Smith"
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "e.g., John"
         },
-        "email": {
-          "label": "Your Email",
-          "placeholder": "john@example.com"
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "e.g., Smith"
         },
-        "message": {
-          "label": "Message",
-          "placeholder": "Tell us about your project..."
+        "phoneNumber": {
+          "label": "Phone Number",
+          "placeholder": "e.g., (843) 555-0193"
+        },
+        "emailAddress": {
+          "label": "Email Address",
+          "placeholder": "e.g., john.smith@email.com"
+        },
+        "projectType": {
+          "label": "Project Type",
+          "residential": "Residential",
+          "commercial": "Commercial"
+        },
+        "typeOfService": {
+          "label": "Type of Service",
+          "placeholder": "Select a service"
+        },
+        "projectAddress": {
+          "label": "Address",
+          "placeholder": "e.g., 123 Main Street"
+        },
+        "projectCity": {
+          "label": "City/Town",
+          "placeholder": "e.g., Goose Creek"
+        },
+        "projectState": {
+          "label": "State",
+          "placeholder": "Select a state"
+        },
+        "projectZipCode": {
+          "label": "Zip Code",
+          "placeholder": "e.g., 29445"
+        },
+        "preferredStartDate": {
+          "label": "Preferred Start Date",
+          "placeholder": "Select one"
+        },
+        "preferredContactMethod": {
+          "label": "Preferred Contact Method"
+        },
+        "uploadPhoto": {
+          "label": "Upload a photo (optional)",
+          "description": "Customer can attach a photo of the project area or surface condition."
+        },
+        "projectDetails": {
+          "label": "Tell us about your project",
+          "placeholder": "e.g., Please paint the living room walls, refinish the deck, and repair drywall cracks."
         }
       },
-      "submit": "Submit Now"
+      "serviceOptions": {
+        "interiorPainting": "Interior Painting",
+        "exteriorPainting": "Exterior Painting",
+        "wallpaperInstallation": "Wallpaper Installation",
+        "deckOrFenceRenovation": "Deck or Fence Renovation",
+        "kitchenRemodeling": "Kitchen Remodeling",
+        "bathroomRemodeling": "Bathroom Remodeling",
+        "flooringInstallation": "Flooring Installation",
+        "cabinetInstallation": "Cabinet Installation",
+        "resurfacing": "Resurfacing (Floor, Countertop, or Concrete)",
+        "other": "Other"
+      },
+      "startDateOptions": {
+        "asap": "As soon as possible",
+        "twoWeeks": "Within the next 2 weeks",
+        "oneMonth": "Within the next month",
+        "flexible": "Flexible / Not sure yet"
+      },
+      "contactMethodOptions": {
+        "call": "Call Me",
+        "text": "Text Me"
+      },
+      "projectTypeOptions": {
+        "residential": "Residential",
+        "commercial": "Commercial"
+      },
+      "usStates": {
+        "AL": "Alabama",
+        "AK": "Alaska",
+        "AZ": "Arizona",
+        "AR": "Arkansas",
+        "CA": "California",
+        "CO": "Colorado",
+        "CT": "Connecticut",
+        "DE": "Delaware",
+        "FL": "Florida",
+        "GA": "Georgia",
+        "HI": "Hawaii",
+        "ID": "Idaho",
+        "IL": "Illinois",
+        "IN": "Indiana",
+        "IA": "Iowa",
+        "KS": "Kansas",
+        "KY": "Kentucky",
+        "LA": "Louisiana",
+        "ME": "Maine",
+        "MD": "Maryland",
+        "MA": "Massachusetts",
+        "MI": "Michigan",
+        "MN": "Minnesota",
+        "MS": "Mississippi",
+        "MO": "Missouri",
+        "MT": "Montana",
+        "NE": "Nebraska",
+        "NV": "Nevada",
+        "NH": "New Hampshire",
+        "NJ": "New Jersey",
+        "NM": "New Mexico",
+        "NY": "New York",
+        "NC": "North Carolina",
+        "ND": "North Dakota",
+        "OH": "Ohio",
+        "OK": "Oklahoma",
+        "OR": "Oregon",
+        "PA": "Pennsylvania",
+        "RI": "Rhode Island",
+        "SC": "South Carolina",
+        "SD": "South Dakota",
+        "TN": "Tennessee",
+        "TX": "Texas",
+        "UT": "Utah",
+        "VT": "Vermont",
+        "VA": "Virginia",
+        "WA": "Washington",
+        "WV": "West Virginia",
+        "WI": "Wisconsin",
+        "WY": "Wyoming"
+      },
+      "submit": "Request a Free Quote",
+      "messages": {
+        "sending": "Sending your request… please wait.",
+        "success": "Thank you! Your request has been received.",
+        "successDetail": "Our team will contact you within 24 hours to schedule your free estimate.",
+        "error": "Something went wrong. Please try again or call (404) 563-1575 for assistance.",
+        "privacy": "Your information is safe with us. We never share personal data."
+      },
+      "validation": {
+        "required": "This field is required",
+        "invalidEmail": "Please enter a valid email address",
+        "invalidPhone": "Please enter a valid phone number"
+      }
     }
   },
   "footer": {
@@ -218,7 +352,7 @@
     },
     "contactTitle": "Contact Us",
     "contact": {
-      "email": "hello@edercontractor.com",
+      "email": "edercontractorusa@gmail.com",
       "phone": "(404) 563-1575",
       "location": "Goose Creek, SC"
     },

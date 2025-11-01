@@ -77,3 +77,26 @@
   position: relative;
   z-index: 10;
 }
+
+/* React Phone Input 2 Custom Styles */
+.phone-input-container {
+  width: 100%;
+}
+
+.phone-input-container .form-control {
+  width: 100% !important;
+  height: 3.5rem !important;
+  padding-left: 3rem !important;
+  padding-right: 1.25rem !important;
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  border: 2px solid rgba(0, 0, 0, 0.15) !important;
+  border-radius: 0 !important;
+}
+
+.phone-input-container .flag-dropdown {
+  border: 2px solid rgba(0, 0, 0, 0.15) !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+}

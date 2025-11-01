@@ -19,7 +19,7 @@ const navigationLinks = [
 ];
 
 const contactInfo = [
-  { icon: Mail, text: 'hello@edercontractor.com', type: 'email' },
+  { icon: Mail, text: 'edercontractorusa@gmail.com', type: 'email' },
   { icon: Phone, text: '(404) 563-1575', type: 'phone' },
   { icon: MapPin, text: 'Goose Creek, SC', type: 'location' }
 ];
